@@ -1,0 +1,17 @@
+<?php
+require_once 'icalendarparser.php';
+
+class iCalendarEventParser
+{
+	var $paramarray = false;
+	
+	function setParamsToArray($file)
+	{
+		$fh = fopen($file, 'r');
+		$theData = fgets($fh);
+		fclose($fh);
+		echo $theData;
+	}
+}
+
+?>

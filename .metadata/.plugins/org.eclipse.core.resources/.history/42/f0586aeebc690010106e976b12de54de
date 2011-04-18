@@ -1,0 +1,13 @@
+<?php
+
+class iCalendarEventParser{
+	
+	var $paramarray = false;
+	
+	function setParamsToArray($file)
+	{
+		$fh = fopen($file, 'r');
+	}
+	
+}
+?>
