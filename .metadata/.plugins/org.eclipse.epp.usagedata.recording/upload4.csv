@@ -1,0 +1,245 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.emf.common,2.6.0.v20100914-1218,"org.eclipse.emf.common",1303146118134
+started,bundle,org.eclipse.emf.ecore,2.6.1.v20100914-1218,"org.eclipse.emf.ecore",1303146118135
+started,bundle,org.eclipse.emf.ecore.xmi,2.5.0.v20100521-1846,"org.eclipse.emf.ecore.xmi",1303146118136
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201102081640,"org.eclipse.epp.usagedata.gathering",1303146118136
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201102081640,"org.eclipse.epp.usagedata.recording",1303146118137
+started,bundle,org.eclipse.equinox.app,1.3.1.R36x_v20100803,"org.eclipse.equinox.app",1303146118137
+started,bundle,org.eclipse.equinox.common,3.6.0.v20100503,"org.eclipse.equinox.common",1303146118138
+started,bundle,org.eclipse.equinox.ds,1.2.1.R36x_v20100803,"org.eclipse.equinox.ds",1303146118141
+started,bundle,org.eclipse.equinox.event,1.2.0.v20100503,"org.eclipse.equinox.event",1303146118142
+started,bundle,org.eclipse.equinox.p2.core,2.0.3.R36x_v20110111,"org.eclipse.equinox.p2.core",1303146118142
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.203.R36x_v20101220,"org.eclipse.equinox.p2.directorywatcher",1303146118143
+started,bundle,org.eclipse.equinox.p2.engine,2.0.1.R36x_v20110201,"org.eclipse.equinox.p2.engine",1303146118151
+started,bundle,org.eclipse.equinox.p2.metadata,2.0.1.R36x_v20101202,"org.eclipse.equinox.p2.metadata",1303146118152
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.1.0.v20100513,"org.eclipse.equinox.p2.metadata.repository",1303146118152
+started,bundle,org.eclipse.equinox.p2.operations,2.0.0.v20100510,"org.eclipse.equinox.p2.operations",1303146118153
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.2.R36x_v20110114,"org.eclipse.equinox.p2.reconciler.dropins",1303146118156
+started,bundle,org.eclipse.equinox.p2.repository,2.0.2.R36x_v20110111-1500,"org.eclipse.equinox.p2.repository",1303146118157
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20100507-1815,"org.eclipse.equinox.p2.ui.sdk.scheduler",1303146118158
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.101.R36x_v20100823,"org.eclipse.equinox.p2.updatechecker",1303146118158
+started,bundle,org.eclipse.equinox.preferences,3.3.0.v20100503,"org.eclipse.equinox.preferences",1303146118159
+started,bundle,org.eclipse.equinox.registry,3.5.0.v20100503,"org.eclipse.equinox.registry",1303146118160
+started,bundle,org.eclipse.equinox.security,1.0.200.v20100503,"org.eclipse.equinox.security",1303146118161
+started,bundle,org.eclipse.equinox.util,1.0.200.v20100503,"org.eclipse.equinox.util",1303146118161
+started,bundle,org.eclipse.help,3.5.0.v20100524,"org.eclipse.help",1303146118162
+started,bundle,org.eclipse.jface,3.6.2.M20110210-1200,"org.eclipse.jface",1303146118163
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.101.r362_v20101117-0800,"org.eclipse.ltk.core.refactoring",1303146118164
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1303146118165
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1303146118165
+started,bundle,org.eclipse.mylyn.commons.net,3.4.1.v20100625-2100-e3x,"org.eclipse.mylyn.commons.net",1303146118165
+started,bundle,org.eclipse.mylyn.commons.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.commons.ui",1303146118166
+started,bundle,org.eclipse.mylyn.context.core,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.core",1303146118166
+started,bundle,org.eclipse.mylyn.context.ui,3.4.2.v20110131-0100-e3x,"org.eclipse.mylyn.context.ui",1303146118166
+started,bundle,org.eclipse.mylyn.monitor.ui,3.4.1.v20110131-0100-e3x,"org.eclipse.mylyn.monitor.ui",1303146118167
+started,bundle,org.eclipse.mylyn.tasks.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.tasks.ui",1303146118168
+started,bundle,org.eclipse.mylyn.team.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.team.ui",1303146118169
+started,bundle,org.eclipse.php.core,2.2.1.v20101001-2300,"org.eclipse.php.core",1303146118170
+started,bundle,org.eclipse.php.debug.daemon,2.2.0.v20101001-2300,"org.eclipse.php.debug.daemon",1303146118215
+started,bundle,org.eclipse.php.debug.ui,2.2.0.v20101001-2300,"org.eclipse.php.debug.ui",1303146118215
+started,bundle,org.eclipse.php.server.core,2.2.0.v20101001-2300,"org.eclipse.php.server.core",1303146118219
+started,bundle,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.ui",1303146118220
+started,bundle,org.eclipse.rse.core,3.1.102.R32x_v201102011435,"org.eclipse.rse.core",1303146118220
+started,bundle,org.eclipse.rse.services,3.2.2.R32x_v201102011435,"org.eclipse.rse.services",1303146118222
+started,bundle,org.eclipse.rse.ui,3.1.102.R32x_v201102011435,"org.eclipse.rse.ui",1303146118223
+started,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1303146118224
+started,bundle,org.eclipse.team.core,3.5.101.R36x_v20110203-1036,"org.eclipse.team.core",1303146118255
+started,bundle,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui",1303146118257
+started,bundle,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.editors",1303146118257
+started,bundle,org.eclipse.ui.forms,3.5.2.r36_v20100702,"org.eclipse.ui.forms",1303146118259
+started,bundle,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.ide",1303146118260
+started,bundle,org.eclipse.ui.net,1.2.100.I20100505-1245,"org.eclipse.ui.net",1303146118261
+started,bundle,org.eclipse.ui.views,3.5.1.M20110202-0800,"org.eclipse.ui.views",1303146118261
+started,bundle,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"org.eclipse.ui.workbench",1303146118262
+started,bundle,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.workbench.texteditor",1303146118266
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1303146118267
+started,bundle,org.eclipse.wst.common.frameworks,1.2.0.v201003040800,"org.eclipse.wst.common.frameworks",1303146118268
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.102.v201008170019,"org.eclipse.wst.common.project.facet.core",1303146118269
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1303146118270
+started,bundle,org.eclipse.wst.css.core,1.1.402.v201102031915,"org.eclipse.wst.css.core",1303146118272
+started,bundle,org.eclipse.wst.css.ui,1.0.502.v201101122002,"org.eclipse.wst.css.ui",1303146118273
+started,bundle,org.eclipse.wst.dtd.core,1.1.401.v201101122255,"org.eclipse.wst.dtd.core",1303146118274
+started,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1303146118275
+started,bundle,org.eclipse.wst.html.core,1.1.404.v201101190004,"org.eclipse.wst.html.core",1303146118276
+started,bundle,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.ui",1303146118279
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1303146118279
+started,bundle,org.eclipse.wst.jsdt.core,1.1.4.v201102102045,"org.eclipse.wst.jsdt.core",1303146118281
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.200.v201004150600,"org.eclipse.wst.jsdt.manipulation",1303146118282
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui",1303146118288
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.304.v201102160550,"org.eclipse.wst.jsdt.web.core",1303146118289
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.304.v201012160349,"org.eclipse.wst.jsdt.web.ui",1303146118290
+started,bundle,org.eclipse.wst.sse.core,1.1.504.v201102160550,"org.eclipse.wst.sse.core",1303146118291
+started,bundle,org.eclipse.wst.sse.ui,1.2.3.v201102102045,"org.eclipse.wst.sse.ui",1303146118291
+started,bundle,org.eclipse.wst.validation,1.2.201.v201101270100,"org.eclipse.wst.validation",1303146118291
+started,bundle,org.eclipse.wst.xml.core,1.1.503.v201102102045,"org.eclipse.wst.xml.core",1303146118292
+started,bundle,org.eclipse.wst.xml.ui,1.1.103.v201101122108,"org.eclipse.wst.xml.ui",1303146118304
+started,bundle,org.eclipse.wst.xsl.core,1.1.0.v201004290328,"org.eclipse.wst.xsl.core",1303146118305
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1303146118306
+os,sysinfo,,,"win32",1303146118310
+arch,sysinfo,,,"x86",1303146118310
+ws,sysinfo,,,"win32",1303146118310
+locale,sysinfo,,,"et_EE",1303146118310
+processors,sysinfo,,,"2",1303146118310
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1303146118310
+java.runtime.version,sysinfo,,,"1.6.0_24-b07",1303146118310
+java.specification.name,sysinfo,,,"Java Platform API Specification",1303146118310
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1303146118310
+java.specification.version,sysinfo,,,"1.6",1303146118310
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1303146118310
+java.version,sysinfo,,,"1.6.0_24",1303146118311
+java.vm.info,sysinfo,,,"mixed mode, sharing",1303146118311
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1303146118312
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1303146118312
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1303146118312
+java.vm.specification.version,sysinfo,,,"1.0",1303146118312
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1303146118312
+java.vm.version,sysinfo,,,"19.1-b02",1303146118312
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1303146118342
+started,bundle,org.eclipse.team.cvs.core,3.3.301.R36x_v20110119-0815,"org.eclipse.team.cvs.core",1303146118347
+started,bundle,org.eclipse.team.ui,3.5.102.R36x_v20110203-1036,"org.eclipse.team.ui",1303146118370
+started,bundle,org.eclipse.update.core,3.2.402.R36x_v20100629,"org.eclipse.update.core",1303146118381
+started,bundle,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console",1303146118389
+started,bundle,org.eclipse.team.cvs.ui,3.3.302.R36x_v20110203-1036,"org.eclipse.team.cvs.ui",1303146118447
+started,bundle,org.eclipse.php.debug.core,2.2.0.v20101001-2300,"org.eclipse.php.debug.core",1303146118463
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1303146131650
+activated,view,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.ui.explorer",1303146145050
+started,bundle,org.eclipse.jdt.core,3.6.2.v_A76_R36x,"org.eclipse.jdt.core",1303146145636
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20100520-0800,"org.eclipse.jdt.core.manipulation",1303146145708
+started,bundle,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui",1303146145719
+activated,editor,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.editor",1303146157425
+activated,view,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.ui.explorer",1303146158333
+closed,editor,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.editor",1303146158333
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1303146163537
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1303146167112
+started,bundle,org.eclipse.ui.navigator,3.5.0.I20100601-0800,"org.eclipse.ui.navigator",1303146167284
+started,bundle,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.resources",1303146167291
+opened,view,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.ProjectExplorer",1303146167855
+activated,perspective,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui.JavaPerspective",1303146167920
+activated,view,org.eclipse.ui.ide,3.6.2.M20101201-0800,"org.eclipse.ui.views.ProblemView",1303146168081
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.perspectives.showPerspective",1303146168110
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.perspectives.showPerspective",1303146168110
+activated,perspective,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.perspective",1303146173276
+activated,view,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.ui.explorer",1303146176410
+error,log,,,"Resource is out of sync with the file system: '/r1/.buildpath'.",1303146194169
+error,log,,,"Resource is out of sync with the file system: '/r1/.project'.",1303146194171
+error,log,,,"Resource is out of sync with the file system: '/r1/.settings/org.eclipse.php.core.prefs'.",1303146194190
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/changelog.html'.",1303146194192
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique.css'.",1303146194194
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique_wide.css'.",1303146194195
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique.css'.",1303146194196
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique_wide.css'.",1303146194197
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default.css'.",1303146194198
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default_wide.css'.",1303146194200
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/main.css'.",1303146194201
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain.css'.",1303146194202
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain_wide.css'.",1303146194203
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.php'.",1303146194205
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.txt'.",1303146194206
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/functions.js'.",1303146194207
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/back.png'.",1303146194208
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/calendar.gif'.",1303146194209
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/de.gif'.",1303146194210
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/document.png'.",1303146194211
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/el.gif'.",1303146194212
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/en.gif'.",1303146194214
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/folder.png'.",1303146194215
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/forward.png'.",1303146194216
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/jp.gif'.",1303146194217
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/ok.png'.",1303146194218
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/pager.png'.",1303146194219
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/sourcephp.png'.",1303146194220
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/javascript.php'.",1303146194221
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/js.php'.",1303146194222
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_1.php'.",1303146194223
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_2.php'.",1303146194224
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_3.php'.",1303146194225
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_4.php'.",1303146194226
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_5.php'.",1303146194227
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/mysqlevents.php'.",1303146194228
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/showcode.php'.",1303146194229
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_1.php'.",1303146194230
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_2.php'.",1303146194231
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_3.php'.",1303146194231
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_4.php'.",1303146194232
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_5.php'.",1303146194233
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.php'.",1303146194234
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.xml'.",1303146194235
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_1.php'.",1303146194236
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_2.php'.",1303146194236
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_3.php'.",1303146194237
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_4.php'.",1303146194238
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_de.html'.",1303146194239
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_el.html'.",1303146194240
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_en.html'.",1303146194241
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_jp.html'.",1303146194242
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/examples.php'.",1303146194242
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/index.php'.",1303146194243
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/license.html'.",1303146194244
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/readme.txt'.",1303146194245
+opened,editor,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.editor",1303146212265
+activated,editor,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.editor",1303146212335
+executed,command,org.eclipse.ui,3.6.2.M20110203-1100,"org.eclipse.ui.file.save",1303146226692
+started,bundle,org.eclipse.dltk.validators.core,1.0.0.v20100524-0038,"org.eclipse.dltk.validators.core",1303146226758
+started,bundle,org.eclipse.wst.xsd.core,1.1.503.v201011121919,"org.eclipse.wst.xsd.core",1303146226766
+started,bundle,org.eclipse.dltk.validators.externalchecker,1.0.0.v20090803-1754,"org.eclipse.dltk.validators.externalchecker",1303146226773
+deactivated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1303146233181
+activated,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1303146234721
+closed,workbench,org.eclipse.ui.workbench,3.6.2.M20110210-1200,"",1303146234848
+started,bundle,org.eclipse.compare,3.5.101.R36x_v20100929-0800,"org.eclipse.compare",1303146235092
+stopped,bundle,org.eclipse.compare.win32,1.0.101.R36x_v20101103-0618,"org.eclipse.compare.win32",1303146235202
+stopped,bundle,org.eclipse.dltk.testing,1.0.0.v20090914-1703,"org.eclipse.dltk.testing",1303146235203
+stopped,bundle,org.eclipse.php.server.ui,2.2.0.v20101001-2300,"org.eclipse.php.server.ui",1303146235204
+stopped,bundle,org.eclipse.php.debug.ui,2.2.0.v20101001-2300,"org.eclipse.php.debug.ui",1303146235204
+stopped,bundle,org.eclipse.dltk.debug.ui,2.0.0.v20100115-2213,"org.eclipse.dltk.debug.ui",1303146235206
+stopped,bundle,org.eclipse.dltk.formatter,2.0.0.v20100304-1959,"org.eclipse.dltk.formatter",1303146235206
+stopped,bundle,org.eclipse.dltk.rse.ui,2.0.0.v20100115-2213,"org.eclipse.dltk.rse.ui",1303146235207
+stopped,bundle,org.eclipse.dltk.validators.externalchecker,1.0.0.v20090803-1754,"org.eclipse.dltk.validators.externalchecker",1303146235207
+stopped,bundle,org.eclipse.dltk.validators.ui,2.0.0.v20091214-1712,"org.eclipse.dltk.validators.ui",1303146235207
+stopped,bundle,org.eclipse.php.debug.core,2.2.0.v20101001-2300,"org.eclipse.php.debug.core",1303146235207
+stopped,bundle,org.eclipse.php.ui,2.2.1.v20101001-2300,"org.eclipse.php.ui",1303146235207
+stopped,bundle,org.eclipse.dltk.ui,2.0.0.v20100909-1720,"org.eclipse.dltk.ui",1303146235210
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20100513,"org.eclipse.equinox.p2.ui.sdk",1303146235211
+stopped,bundle,org.eclipse.wst.xsl.jaxp.debug.ui,1.0.100.v201004290328,"org.eclipse.wst.xsl.jaxp.debug.ui",1303146235212
+stopped,bundle,org.eclipse.jdt.debug.ui,3.5.2.v20100928a_r362,"org.eclipse.jdt.debug.ui",1303146235214
+stopped,bundle,org.eclipse.jdt.ui,3.6.2.r362_v20110203,"org.eclipse.jdt.ui",1303146235273
+stopped,bundle,org.eclipse.rse.importexport,1.2.101.v201008191400,"org.eclipse.rse.importexport",1303146235274
+stopped,bundle,org.eclipse.rse.subsystems.shells.telnet,1.2.0.v200905272300,"org.eclipse.rse.subsystems.shells.telnet",1303146235275
+stopped,bundle,org.eclipse.rse.shells.ui,3.0.200.v201006041352,"org.eclipse.rse.shells.ui",1303146235276
+stopped,bundle,org.eclipse.rse.files.ui,3.1.102.R32x_v201102011435,"org.eclipse.rse.files.ui",1303146235277
+stopped,bundle,org.eclipse.rse.processes.ui,3.0.200.v201003010830,"org.eclipse.rse.processes.ui",1303146235278
+stopped,bundle,org.eclipse.wst.dtd.ui,1.0.500.v201004290328,"org.eclipse.wst.dtd.ui",1303146235278
+stopped,bundle,org.eclipse.wst.jsdt.web.ui,1.0.304.v201012160349,"org.eclipse.wst.jsdt.web.ui",1303146235279
+stopped,bundle,org.eclipse.wst.web.ui,1.1.400.v201004141630,"org.eclipse.wst.web.ui",1303146235279
+stopped,bundle,org.eclipse.wst.html.ui,1.0.504.v201101122108,"org.eclipse.wst.html.ui",1303146235279
+stopped,bundle,org.eclipse.wst.css.ui,1.0.502.v201101122002,"org.eclipse.wst.css.ui",1303146235279
+stopped,bundle,org.eclipse.wst.xsl.exslt.ui,1.0.0.v201006012005,"org.eclipse.wst.xsl.exslt.ui",1303146235280
+stopped,bundle,org.eclipse.wst.xsl.ui,1.1.1.v201009091745,"org.eclipse.wst.xsl.ui",1303146235281
+stopped,bundle,org.eclipse.wst.xml.xpath.ui,1.1.2.v201101212242,"org.eclipse.wst.xml.xpath.ui",1303146235282
+stopped,bundle,org.eclipse.wst.xsd.ui,1.2.304.v201101251958,"org.eclipse.wst.xsd.ui",1303146235286
+stopped,bundle,org.eclipse.wst.xsl.debug.ui,1.0.101.v201102111830,"org.eclipse.wst.xsl.debug.ui",1303146235287
+stopped,bundle,org.eclipse.wst.xml.ui,1.1.103.v201101122108,"org.eclipse.wst.xml.ui",1303146235287
+stopped,bundle,org.eclipse.wst.common.ui,1.1.500.v200911190730,"org.eclipse.wst.common.ui",1303146235288
+stopped,bundle,org.eclipse.wst.jsdt.debug.ui,1.0.3.v201011040143,"org.eclipse.wst.jsdt.debug.ui",1303146235290
+stopped,bundle,org.eclipse.wst.jsdt.support.firefox,1.0.300.v201004150600,"org.eclipse.wst.jsdt.support.firefox",1303146235290
+stopped,bundle,org.eclipse.wst.jsdt.ui,1.1.4.v201102160540,"org.eclipse.wst.jsdt.ui",1303146235290
+stopped,bundle,org.eclipse.wst.sse.ui,1.2.3.v201102102045,"org.eclipse.wst.sse.ui",1303146235290
+stopped,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1303146235291
+stopped,bundle,org.eclipse.mylyn.team.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.team.ui",1303146235291
+stopped,bundle,org.eclipse.ui.navigator.resources,3.4.202.M20101124-0800,"org.eclipse.ui.navigator.resources",1303146235291
+stopped,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1303146235292
+stopped,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1303146235293
+stopped,bundle,org.eclipse.mylyn.ide.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ui",1303146235293
+stopped,bundle,org.eclipse.mylyn.resources.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.resources.ui",1303146235294
+stopped,bundle,org.eclipse.mylyn.wikitext.tasks.ui,1.3.1.v20100823-0100-e3x,"org.eclipse.mylyn.wikitext.tasks.ui",1303146235295
+stopped,bundle,org.eclipse.mylyn.context.ui,3.4.2.v20110131-0100-e3x,"org.eclipse.mylyn.context.ui",1303146235295
+stopped,bundle,org.eclipse.mylyn.help.ui,3.4.2.v20110131-0100-e3x,"org.eclipse.mylyn.help.ui",1303146235296
+stopped,bundle,org.eclipse.mylyn.tasks.bugs,3.4.1.v20100823-0100-e3x,"org.eclipse.mylyn.tasks.bugs",1303146235297
+stopped,bundle,org.eclipse.mylyn.tasks.ui,3.4.3.v20110131-0100-e3x,"org.eclipse.mylyn.tasks.ui",1303146235297
+stopped,bundle,org.eclipse.team.cvs.ui,3.3.302.R36x_v20110203-1036,"org.eclipse.team.cvs.ui",1303146235297
+stopped,bundle,org.eclipse.team.ui,3.5.102.R36x_v20110203-1036,"org.eclipse.team.ui",1303146235297
+stopped,bundle,org.eclipse.compare,3.5.101.R36x_v20100929-0800,"org.eclipse.compare",1303146235297
+stopped,bundle,org.eclipse.dltk.console.ui,2.0.0.v20091203-1154,"org.eclipse.dltk.console.ui",1303146235298
+stopped,bundle,org.eclipse.ui.externaltools,3.2.0.v20100427,"org.eclipse.ui.externaltools",1303146235299
+stopped,bundle,org.eclipse.wst.server.ui,1.1.207.v20110119,"org.eclipse.wst.server.ui",1303146235300
+stopped,bundle,org.eclipse.debug.ui,3.6.3.v20101201_r362,"org.eclipse.debug.ui",1303146235300
+stopped,bundle,org.eclipse.mylyn.wikitext.ui,1.3.0.v20100608-0100-e3x,"org.eclipse.mylyn.wikitext.ui",1303146235301
