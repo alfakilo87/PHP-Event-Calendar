@@ -13,7 +13,6 @@ class iCalendarEventParser
 		{
 			print_r($line.'<br>');
 			explode(':', $line);
-			
 		}
 		fclose($f);
 	}
