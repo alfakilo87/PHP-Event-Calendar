@@ -1,0 +1,29 @@
+<?php
+
+class config
+{
+	var $jan = 'Jaanuar';
+	var $feb = 'Veebruar';
+	var $mar = 'Märts';
+	var $may = 'Aprill';
+	var $jun = 'Mai';
+	var $jul = 'Juuni';
+	var $month7 = 'Juuli';
+	var $month8 = 'August';
+	var $month9 = 'September';
+	var $month10 = 'Oktoober';
+	var $month11 = 'November';
+	var $month12 = 'Detsember';
+	
+	var $mon = 'Esmaspäev';
+	var $tue = 'Teisipäev';
+	var $wed = 'Kolmapäev';
+	var $thu = 'Neljapäev';
+	var $fri = 'Reede';
+	var $sat = 'Laupäev';
+	var $sun = 'Pühapäev';
+	
+	var $startonmonday = true;
+}
+
+?>

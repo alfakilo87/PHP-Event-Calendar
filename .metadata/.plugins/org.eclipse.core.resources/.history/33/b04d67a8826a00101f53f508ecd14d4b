@@ -1,0 +1,13 @@
+<?php
+
+class PHPEventCalendar{
+
+var $x = 'x';
+
+function PHPEventCalendar($year=false,$month=false,$day=false,$GMTDiff="none")
+{
+	
+}
+}
+
+?>

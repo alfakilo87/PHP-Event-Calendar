@@ -1,0 +1,16 @@
+<?php
+
+require_once 'config.php';
+
+class PHPEventCalendar
+{
+	var $x = 'x';
+	
+	function PHPEventCalendar()
+	{
+		
+	}
+
+}
+
+?>

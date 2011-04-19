@@ -1,0 +1,14 @@
+<?php
+
+class PHPEventCalendar{
+
+var $jan="Jaanuar";
+var $feb="Veebruar";
+
+function PHPEventCalendar($year=false,$month=false,$day=false,$GMTDiff="none")
+{
+	
+}
+}
+
+?>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 resources to &apos;phpeventcalendar&apos;" description="Move 1 resources to &apos;phpeventcalendar&apos;" destination="phpeventcalendar" element1="phpeventcal.php" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1303217626827" updateReferences="true"/>
+</session>

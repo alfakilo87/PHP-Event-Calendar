@@ -1,0 +1,14 @@
+<?php
+
+class PHPEventCalendar
+{
+	var $x = 'x';
+	
+	function PHPEventCalendar()
+	{
+		
+	}
+
+}
+
+?>

@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.php'.",1303216810210
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.txt'.",1303216810211
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/functions.js'.",1303216810213
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/back.png'.",1303216810226
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/calendar.gif'.",1303216810227
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/de.gif'.",1303216810229
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/document.png'.",1303216810230
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/el.gif'.",1303216810231
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/en.gif'.",1303216810234
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/folder.png'.",1303216810237
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/forward.png'.",1303216810238
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/jp.gif'.",1303216810254
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/ok.png'.",1303216810256
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/pager.png'.",1303216810257
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/sourcephp.png'.",1303216810260
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/javascript.php'.",1303216810262
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/js.php'.",1303216810264
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_1.php'.",1303216810267
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_2.php'.",1303216810270
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_3.php'.",1303216810272
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_4.php'.",1303216810274
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_5.php'.",1303216810277
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/mysqlevents.php'.",1303216810278
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/showcode.php'.",1303216810280
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_1.php'.",1303216810288
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_2.php'.",1303216810289
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_3.php'.",1303216810291
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_4.php'.",1303216810292
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_5.php'.",1303216810293
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.php'.",1303216810295
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.xml'.",1303216810296
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_1.php'.",1303216810298
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_2.php'.",1303216810299
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_3.php'.",1303216810300
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_4.php'.",1303216810302
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_de.html'.",1303216810304
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_el.html'.",1303216810305
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_en.html'.",1303216810307
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_jp.html'.",1303216810309
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/examples.php'.",1303216810310
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/index.php'.",1303216810311
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/license.html'.",1303216810312
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/readme.txt'.",1303216810313
+started,bundle,org.eclipse.dltk.validators.ui,2.0.0.v20091214-1712,"org.eclipse.dltk.validators.ui",1303216811893
+error,log,,,"Resource is out of sync with the file system: '/r1/.buildpath'.",1303216811998
+error,log,,,"Resource is out of sync with the file system: '/r1/.project'.",1303216812000
+error,log,,,"Resource is out of sync with the file system: '/r1/.settings/org.eclipse.php.core.prefs'.",1303216812001
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/changelog.html'.",1303216812002
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique.css'.",1303216812004
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique_wide.css'.",1303216812006
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique.css'.",1303216812007
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique_wide.css'.",1303216812008
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default.css'.",1303216812010
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default_wide.css'.",1303216812011
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/main.css'.",1303216812013
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain.css'.",1303216812014
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain_wide.css'.",1303216812016
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.php'.",1303216812017
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.txt'.",1303216812019
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/functions.js'.",1303216812021
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/back.png'.",1303216812023
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/calendar.gif'.",1303216812025
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/de.gif'.",1303216812028
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/document.png'.",1303216812030
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/el.gif'.",1303216812032
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/en.gif'.",1303216812034
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/folder.png'.",1303216812036
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/forward.png'.",1303216812037
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/jp.gif'.",1303216812038
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/ok.png'.",1303216812040
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/pager.png'.",1303216812041
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/sourcephp.png'.",1303216812043
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/javascript.php'.",1303216812044
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/js.php'.",1303216812046
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_1.php'.",1303216812048
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_2.php'.",1303216812050
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_3.php'.",1303216812052
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_4.php'.",1303216812054
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_5.php'.",1303216812056
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/mysqlevents.php'.",1303216812059
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/showcode.php'.",1303216812061
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_1.php'.",1303216812063
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_2.php'.",1303216812065
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_3.php'.",1303216812067
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_4.php'.",1303216812092
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_5.php'.",1303216812094
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.php'.",1303216812096
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.xml'.",1303216812097
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_1.php'.",1303216812099
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_2.php'.",1303216812101
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_3.php'.",1303216812103
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_4.php'.",1303216812104
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_de.html'.",1303216812106
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_el.html'.",1303216812108
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_en.html'.",1303216812110
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_jp.html'.",1303216812112
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/examples.php'.",1303216812114
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/index.php'.",1303216812116
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/license.html'.",1303216812118
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/readme.txt'.",1303216812120
+started,bundle,org.eclipse.compare,3.5.100.I20100526-0800,"org.eclipse.compare",1303216812195
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303216816201
+opened,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303216836042
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303216836125
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303216836236
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303216843354
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303216845475
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303216862746
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303216866947
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.selectAll",1303216869155
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1303216869911
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303216871287
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.selectAll",1303216872519
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1303216873145
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1303216944169
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1303216948366
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1303216960735
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1303216981312
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1303217022497
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303217033793
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303217548393
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1303217559062
+error,log,,,"Resource is out of sync with the file system: '/r1/.buildpath'.",1303217576741
+error,log,,,"Resource is out of sync with the file system: '/r1/.project'.",1303217576742
+error,log,,,"Resource is out of sync with the file system: '/r1/.settings/org.eclipse.php.core.prefs'.",1303217576743
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/changelog.html'.",1303217576745
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique.css'.",1303217576747
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique_wide.css'.",1303217576748
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique.css'.",1303217576750
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique_wide.css'.",1303217576751
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default.css'.",1303217576753
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default_wide.css'.",1303217576754
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/main.css'.",1303217576756
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain.css'.",1303217576757
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain_wide.css'.",1303217576759
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.php'.",1303217576760
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.txt'.",1303217576762
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/functions.js'.",1303217576763
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/back.png'.",1303217576764
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/calendar.gif'.",1303217576766
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/de.gif'.",1303217576767
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/document.png'.",1303217576769
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/el.gif'.",1303217576770
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/en.gif'.",1303217576772
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/folder.png'.",1303217576773
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/forward.png'.",1303217576775
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/jp.gif'.",1303217576776
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/ok.png'.",1303217576778
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/pager.png'.",1303217576779
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/sourcephp.png'.",1303217576781
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/javascript.php'.",1303217576782
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/js.php'.",1303217576783
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_1.php'.",1303217576785
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_2.php'.",1303217576786
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_3.php'.",1303217576789
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_4.php'.",1303217576790
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_5.php'.",1303217576792
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/mysqlevents.php'.",1303217576793
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/showcode.php'.",1303217576795
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_1.php'.",1303217576796
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_2.php'.",1303217576797
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_3.php'.",1303217576799
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_4.php'.",1303217576800
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_5.php'.",1303217576802
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.php'.",1303217576803
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.xml'.",1303217576804
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_1.php'.",1303217576806
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_2.php'.",1303217576807
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_3.php'.",1303217576809
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_4.php'.",1303217576810
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_de.html'.",1303217576812
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_el.html'.",1303217576814
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_en.html'.",1303217576815
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_jp.html'.",1303217576817
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/examples.php'.",1303217576818
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/index.php'.",1303217576820
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/license.html'.",1303217576822
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/readme.txt'.",1303217576824
+activated,view,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.ui.explorer",1303217576845
+error,log,,,"Resource is out of sync with the file system: '/r1/.buildpath'.",1303217584458
+error,log,,,"Resource is out of sync with the file system: '/r1/.project'.",1303217584459
+error,log,,,"Resource is out of sync with the file system: '/r1/.settings/org.eclipse.php.core.prefs'.",1303217584460
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/changelog.html'.",1303217584461
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique.css'.",1303217584462
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/antique_wide.css'.",1303217584464
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique.css'.",1303217584465
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/ceramique_wide.css'.",1303217584466
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default.css'.",1303217584467
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/default_wide.css'.",1303217584468
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/main.css'.",1303217584469
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain.css'.",1303217584470
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/css/plain_wide.css'.",1303217584472
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.php'.",1303217584473
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/flatevents.txt'.",1303217584474
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/functions.js'.",1303217584475
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/back.png'.",1303217584476
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/calendar.gif'.",1303217584477
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/de.gif'.",1303217584478
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/document.png'.",1303217584480
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/el.gif'.",1303217584481
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/en.gif'.",1303217584482
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/folder.png'.",1303217584483
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/forward.png'.",1303217584484
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/jp.gif'.",1303217584485
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/ok.png'.",1303217584486
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/pager.png'.",1303217584487
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/img/sourcephp.png'.",1303217584488
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/javascript.php'.",1303217584489
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/js.php'.",1303217584491
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_1.php'.",1303217584492
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_2.php'.",1303217584493
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_3.php'.",1303217584494
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_4.php'.",1303217584495
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/m_5.php'.",1303217584496
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/mysqlevents.php'.",1303217584497
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/showcode.php'.",1303217584498
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_1.php'.",1303217584499
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_2.php'.",1303217584500
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_3.php'.",1303217584502
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_4.php'.",1303217584503
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/w_5.php'.",1303217584504
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.php'.",1303217584505
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/xmlevents.xml'.",1303217584506
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_1.php'.",1303217584507
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_2.php'.",1303217584508
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_3.php'.",1303217584510
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/data/y_4.php'.",1303217584511
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_de.html'.",1303217584512
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_el.html'.",1303217584514
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_en.html'.",1303217584515
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/doc/doc_jp.html'.",1303217584516
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/examples.php'.",1303217584518
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/index.php'.",1303217584519
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/license.html'.",1303217584520
+error,log,,,"Resource is out of sync with the file system: '/r1/activecalendar/readme.txt'.",1303217584521
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303217588749
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303217609009
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303217612111
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303217612165
+closed,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303217612166
+activated,view,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.ui.explorer",1303217617329
+started,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1303217621048
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303217621312
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303217626932
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.moveResources",1303217626940
+opened,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303217637243
+activated,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303217637317
+activated,view,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.ui.explorer",1303217733276
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1303217742276
+opened,editor,org.eclipse.php.ui,2.2.0.v20100616-1900,"org.eclipse.php.editor",1303217746885
