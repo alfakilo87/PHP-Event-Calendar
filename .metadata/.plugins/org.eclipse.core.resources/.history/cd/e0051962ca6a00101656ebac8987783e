@@ -28,7 +28,7 @@ class PHPEventCalendar
 		for ($i = 1; $i <= 4; $i++)
 		{
 			$out .= '<tr>';
-			$out .= '<th>*</th>';
+			$out .= '<th></th>';
 			for ($j = 1; $j <= 7; $j++)
 			{
 				$out .= '<td>*</td>';
