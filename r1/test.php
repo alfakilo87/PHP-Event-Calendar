@@ -15,8 +15,4 @@ $cal->setEventContent("2010","2","11","<img src=\"img/pager.png\" border=\"0\" a
 $cal->setEventContent("2010","2","23","<img src=\"img/ok.png\" border=\"0\" alt=\"\" /> birthday");
 print $cal->showWeeks(6);
 
-require_once 'phpeventcalendar/phpeventcal.php';
-$cal2 = new PHPEventCalendar();
-$cal2->getWeekView(2011, 4, 20);
-
 ?>

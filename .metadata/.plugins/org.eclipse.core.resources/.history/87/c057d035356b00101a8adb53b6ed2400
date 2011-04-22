@@ -1,0 +1,93 @@
+<?php
+
+class config
+{
+	var $jan = 'Jaanuar';
+	var $feb = 'Veebruar';
+	var $mar = 'Märts';
+	var $apr = 'Aprill';
+	var $may = 'Mai';
+	var $jun = 'Juuni';
+	var $jul = 'Juuli';
+	var $aug = 'August';
+	var $sep = 'September';
+	var $oct = 'Oktoober';
+	var $nov = 'November';
+	var $dec = 'Detsember';
+	
+	var $mon = 'Esmaspäev';
+	var $tue = 'Teisipäev';
+	var $wed = 'Kolmapäev';
+	var $thu = 'Neljapäev';
+	var $fri = 'Reede';
+	var $sat = 'Laupäev';
+	var $sun = 'Pühapäev';
+	
+	var $startonsunday = false;
+	
+	var $showweeknumber = true;
+	
+	function getDays($short = false)
+	{
+		$days[7] = array();
+		
+		if ($this->startonsunday)
+		{
+			array_push($days, $this->sun);
+		}
+		array_push($days, $this->mon);
+		array_push($days, $this->tue);
+		array_push($days, $this->wed);
+		array_push($days, $this->thu);
+		array_push($days, $this->fri);
+		array_push($days, $this->sat);
+		if ($this->startonsunday === false)
+		{
+			array_push($days, $this->sun);
+		}
+		
+		if ($short)
+		{
+			for ($i = 0; $i <= 7; $i++)
+			{
+				$days[$i] = substr($days[$i], 0, 1);
+			}
+//			foreach ($days as $day)
+//			{
+//				$day = substr($day, 0, 1);
+//			}
+		}
+		
+		return $days;
+	}
+	
+	function getMonths($short = false)
+	{
+		$months[12] = array();
+		
+		array_push($months, $this->jan);
+		array_push($months, $this->feb);
+		array_push($months, $this->mar);
+		array_push($months, $this->apr);
+		array_push($months, $this->may);
+		array_push($months, $this->jun);
+		array_push($months, $this->jul);
+		array_push($months, $this->aug);
+		array_push($months, $this->sep);
+		array_push($months, $this->oct);
+		array_push($months, $this->nov);
+		array_push($months, $this->dec);
+		
+		if ($short)
+		{
+			foreach ($months as $month)
+			{
+				$month = substr($month, 0, 3);
+			}
+		}
+		
+		return $months;
+	}
+}
+
+?>

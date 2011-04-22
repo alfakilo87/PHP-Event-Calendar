@@ -1,0 +1,124 @@
+<?php
+
+require_once 'config.php';
+
+class PHPEventCalendar
+{
+	var $settings;
+	var $events;
+	
+	function PHPEventCalendar($vcalendar = false)
+	{
+		$this->settings = new config();
+		if ($vcalendar !== false)
+		{
+			
+		}
+	}
+	
+	function setEvent()
+	{
+		
+	}
+	
+	function getFirstDateForMonthView($year, $month)
+	{
+		$date1 = mktime(0, 0, 0, $month, 1, $year);
+		$date2 = $date1;
+		$week = (int)date("W", $date1);
+		while ($week === (int)date("W", $date2))
+		{
+			$date2 = $date2 - 1;
+		}
+		return $date2 + 1;
+	}
+	
+	function getWeekView($year, $month, $day, $weeks = 1)
+	{
+		$date = mktime(0, 0, 0, $month, $day, $year);
+		$week = (int)date('W', $date);
+		$pr = 100/7;
+		$out = '';
+		if ($weeks > 1)
+		{
+			$out .= '<table class="cal" cellspacing="0" style="width: 100%;">\n<tbody>\n';
+			$out .= '<tr>\n';
+			if ($this->settings->showweeknumber)
+			{
+				$out .= '<th style="min-width: 50px;"></th>\n';
+			}
+			for ($j = 1; $j <= 7; $j++)
+			{
+				$out .= '<th style="width: '.$pr.'%;">*</th>\n';
+			}
+			$out .= '</tr>\n';
+			for ($i = 1; $i <= $weeks; $i++)
+			{
+				$out .= '<tr>\n';
+				if ($this->settings->showweeknumber)
+				{
+					$out .= '<th>'.$week.'</th>\n';
+					$week++;
+				}
+				for ($j = 1; $j <= 7; $j++)
+				{
+					$out .= '<td id="'.'">*</td>\n';
+				}
+				$out .= '</tr>\n';
+			}
+			$out .= '</tbody>\n</table>\n';
+			echo $out;
+		}
+	}
+	
+	function getMonthView($year, $month, $day)
+	{
+		$date = mktime(0, 0, 0, $month, 1, $year);
+		$dateToday = mktime(0, 0, 0, $month, $day, $year);
+		$week = (int)date("W", $date);
+		$FirstDay = $this->getFirstDateForMonthView($year, $month);
+		$date = $FirstDay;
+		$pr = 100/7;
+		$out = "";
+		$out .= "<table class=\"cal\" cellspacing=\"0\" style=\"width: 100%;\">\n<tbody>\n";
+		$out .= "<tr>\n";
+		if ($this->settings->showweeknumber)
+		{
+			$out .= "<th style=\"min-width: 50px;\"></th>\n";
+		}
+		foreach ($this->settings->getDays() as $d)
+		{
+			$out .= "<th style=\"width: ".$pr."%;\">".$d."</th>\n";
+		}
+		$out .= "</tr>\n";
+		for ($i = 1; $i <= 4; $i++)
+		{
+			
+		}
+		while (date("Y-m", $date) <= date("Y-m", $dateToday))
+		{
+			$out .= "<tr>\n";
+			if ($this->settings->showweeknumber)
+			{
+				$out .= "<th rowspan=\"2\">".date("W", $date)."</th>\n";
+			}
+			for ($j = 1; $j <= 7; $j++)
+			{
+				if (date("Y-m-d", $date) === date("Y-m-d")) $out .= "<td id=\""."\" class=\"today\">".date("j", $date)."</td>\n";
+				else $out .= "<td id=\""."\">".date("j", $date)."</td>\n";
+				$date = mktime(0, 0, 0, date("m", $date), date("d", $date) + 1, date("y", $date));
+			}
+			$out .= "</tr>\n";
+			$out .= "<tr>\n";
+			for ($j = 1; $j <= 7; $j++)
+			{
+				$out .= "<td id=\""."\">*</td>\n";
+			}
+			$out .= "</tr>\n";
+		}
+		$out .= "</tbody>\n</table>\n";
+		echo $out;
+	}
+}
+
+?>

@@ -1,0 +1,25 @@
+<?php
+
+class Event
+{
+	var $params;
+	
+	var $content;
+	var $year_start;
+	var $month_start;
+	var $day_start;
+	var $hour_start;
+	var $min_start;
+	var $year_finish;
+	var $month_finish;
+	var $day_finish;
+	var $hour_finish;
+	var $min_finish;
+	
+	function Event($content, $year_st, $month_st, $day_st, $hour_st = 0, $min_st = 0, $year_fs = false, $month_fs = false, $day_fs = false, $hour_fs = 0, $min_fs = 0)
+	{
+		
+	}
+}
+
+?>

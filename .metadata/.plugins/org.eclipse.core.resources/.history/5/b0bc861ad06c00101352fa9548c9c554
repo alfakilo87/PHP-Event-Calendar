@@ -1,0 +1,64 @@
+table.cal
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(211,211,211);
+	font-family: calibri;
+}
+
+table.cal th
+{
+	background-color: rgb(211,211,211);
+}
+
+table.cal td
+{
+	border-style: solid none none solid;
+	border-width: 1px;
+	border-color: rgb(211,211,211);
+	padding: 0px;
+}
+
+table.cal table.day
+{
+	border-style: none;
+	font-size: small;
+}
+
+table.cal table.day th
+{
+	border-style: none;
+	min-height: 10px;
+	height: 10px;
+	miax-height: 10px;
+	background-color: rgb(242,242,242);
+	font-weight: normal;
+	text-align: right;
+}
+
+table.cal table.day td
+{
+	display: block;
+	border-style: none;
+	min-height: 50px;
+}
+
+table.cal td.today table.day
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255,192,0);
+}
+
+table.cal td.today table.day th
+{
+	background-color: rgb(255,192,0);
+}
+
+div.event
+{
+	background-color: rgb(219,238,243);
+	padding-left: 5px;
+	overflow: hidden;
+	max-height: 10px;
+}

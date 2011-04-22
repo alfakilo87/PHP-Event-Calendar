@@ -1,0 +1,13 @@
+<?php
+
+class Event
+{
+	var $params;
+	
+	function Event($year, $month, $day, $hour = 0, $min = 0)
+	{
+		
+	}
+}
+
+?>

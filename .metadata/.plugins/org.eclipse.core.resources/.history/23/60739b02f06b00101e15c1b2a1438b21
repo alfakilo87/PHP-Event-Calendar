@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>PHP Calendar testpage</title>
+<link type="text/css" rel="stylesheet" href="phpeventcalendar/css/style.css">
+</head>
+<body>
+<noscript><br>
+Some features are not available, because Your browser does not support
+JavaScript! <br>
+</noscript>
+
+<?php
+
+require_once 'phpeventcalendar/phpeventcal.php';
+$cal2 = new PHPEventCalendar();
+$cal2->getWeekView(2011, 4, 20, 4);
+$cal2->getMonthView(2011, 4, 21);
+
+print_r($cal2->settings->getDays(1));
+print_r($cal2->settings->getMonths(3));
+
+$date = mktime(0, 0, 0, 4, 1, 2011);
+$dateToday = mktime(0, 0, 0, 4, 21, 2011);
+$week = (int)date('W', $date);
+$FirstMonday = strtotime(((11-$week)%7-3) . ' days', $date);
+echo $FirstMonday;
+echo date('W', $cal2->getFirstDayOfFirstWeek(2011, 4));
+
+?>
+
+</body>
+</html>

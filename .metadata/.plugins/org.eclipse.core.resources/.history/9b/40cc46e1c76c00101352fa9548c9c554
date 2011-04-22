@@ -1,0 +1,45 @@
+table.cal
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(211,211,211);
+}
+
+table.cal th
+{
+	background-color: rgb(211,211,211);
+}
+
+table.cal td
+{
+	border-style: solid none none solid;
+	border-width: 1px;
+	border-color: rgb(211,211,211);
+	padding: 0px;
+}
+
+table.cal td.today
+{
+	background-color: highlight;
+	border-color: orange;
+}
+
+table.cal table.day
+{
+	border-style: none;
+}
+
+table.cal table.day th
+{
+	display: block;
+	border-style: none;
+	min-height: 10px;
+	background-color: yellow;
+}
+
+table.cal table.day td
+{
+	display: block;
+	border-style: none;
+	min-height: 50px;
+}
