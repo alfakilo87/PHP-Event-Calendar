@@ -17,6 +17,7 @@ table.cal td
 	border-width: 1px;
 	border-color: rgb(211,211,211);
 	padding: 0px;
+	vertical-align: top;
 }
 
 table.cal table.day

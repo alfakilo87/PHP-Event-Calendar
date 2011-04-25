@@ -20,15 +20,49 @@ class PHPEventCalendar
 	
 	function setEvent($content, $year_st, $month_st, $day_st, $hour_st = 0, $min_st = 0, $year_fs = false, $month_fs = false, $day_fs = false, $hour_fs = 0, $min_fs = 0)
 	{
-		array_push($this->events, new Event($content, $year_st, $month_st, $day_st));
+		$e = new Event($content, $year_st, $month_st, $day_st);
+		array_push($this->events, $e);
+	}
+	
+	function addEvent($event)
+	{
+		array_push($this->events, $event);
 	}
 	
 	function getEvents($year = false, $month = false, $day = false)
 	{
+		$date = mktime(0, 0, 0, $month, $day, $year);
 		$out = array();
-		foreach ($this->events as $e)
+		if ($year !== false && $month !== false && $day !== false)
 		{
-			array_push($out, $e);
+			foreach ($this->events as $event)
+			{
+				if (date("Y", $event->getDateTimeStart()) == date("Y", $date) && date("n", $event->getDateTimeStart()) == date("n", $date) && date("j", $event->getDateTimeStart()) == date("j", $date))
+				{
+					array_push($out, $event);
+				}
+			}
+			return $out;
+		}
+		else
+		{
+			return $this->events;
+		}
+	}
+	
+	function drawEvents($year, $month, $day)
+	{
+		$out = "";
+		foreach ($this->getEvents($year, $month, $day) as $event)
+		{
+			$out .= "<div class=\"event\"";
+			if ($event->getColorRGB())
+			{
+				$out .= " style=\"background-color: rgb(".$event->getColorRGB().");\"";
+			}
+			$out .= ">\n";
+			$out .= $event->getContent()."\n";
+			$out .= "</div>\n";
 		}
 		return $out;
 	}
@@ -126,7 +160,11 @@ class PHPEventCalendar
 				$out .= "<th>".date("j", $date)."</th>\n";
 				$out .= "</tr>\n<tr>\n";
 				$out .= "<td>\n";
-				$out .= "<div class=\"event\">sündmus1</div>\n";
+				//$out .= "<div class=\"event\">\n";
+				
+				$out .= $this->drawEvents(date("Y", $date), date("n", $date), date("j", $date));
+				
+				//$out .= "</div>\n";
 				$out .= "</td>\n";
 				$out .= "</tr>\n</tbody>\n</table>\n";
 				
