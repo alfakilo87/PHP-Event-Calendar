@@ -1,7 +1,0 @@
-<?php
-
-require_once 'icalendarparser.php';
-
-$ical = new iCalendarEventParser();
-
-?>

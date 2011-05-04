@@ -27,7 +27,14 @@ class config
 	var $showweeknumber = true;
 	var $weekname = 'Nädal';
 	
-	function getDays($chars = false)
+	var $rgbbackgroundcolor = '255,255,255';
+	var $rgbheadercolor = '211,211,211';
+	var $rgbdayheadercolor = '242,242,242';
+	var $rgbtodayheadercolor = '255,192,0';
+	var $rgbtodaycolor = '255,246,217';
+	var $rgbdefaulteventcolor = '219,238,243';
+	
+	function getDays($chars = 0)
 	{
 		$days = array();
 		
@@ -57,7 +64,7 @@ class config
 		return $days;
 	}
 	
-	function getMonths($chars = false)
+	function getMonths($chars = 0)
 	{
 		$months = array();
 		

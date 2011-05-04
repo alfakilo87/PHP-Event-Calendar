@@ -1,65 +1,79 @@
-table.cal
+div.cal table
 {
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(211,211,211);
+	border-style: none;
 	font-family: calibri;
 }
 
-table.cal th
+div.cal table th
 {
-	background-color: rgb(211,211,211);
+	border-style: none;
 }
 
-table.cal td
+div.cal table td
 {
-	border-style: solid none none solid;
-	border-width: 1px;
-	border-color: rgb(211,211,211);
+	border-style: none;
 	padding: 0px;
 	vertical-align: top;
 }
 
-table.cal table.day
+div.cal table.weekview td.today
+{
+	background-color: rgb(255,246,217);
+}
+
+div.cal table.day
 {
 	border-style: none;
 	font-size: small;
 }
 
-table.cal table.day th
+div.cal table.day th
 {
 	border-style: none;
 	min-height: 10px;
 	height: 10px;
-	miax-height: 10px;
+	max-height: 10px;
 	background-color: rgb(242,242,242);
 	font-weight: normal;
 	text-align: right;
 }
 
-table.cal table.day td
+div.cal table.day td
 {
 	display: block;
 	border-style: none;
 	min-height: 50px;
 }
 
-table.cal td.today table.day
-{
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(255,192,0);
-}
-
-table.cal td.today table.day th
-{
-	background-color: rgb(255,192,0);
-}
-
 div.event
 {
-	background-color: rgb(219,238,243);
 	padding-left: 5px;
 	overflow: hidden;
-	max-height: 1,2em;
+	height: 1,1em;
+	max-height: 1,1em;
+	max-width: 200px;
+	white-space: nowrap;
+}
+
+
+
+div.cal table.weekview table.hour
+{
+	border-style: none;
+}
+
+div.cal table.weekview table.hour td
+{
+	display: block;
+	border-style: none none dotted none;
+	border-width: 1px;
+	min-height: 15px;
+	height: 15px;
+	max-height: 15px;
+	overflow: visible;
+}
+
+div.cal table.weekview table.hour td.last
+{
+	border-style: none;
 }
