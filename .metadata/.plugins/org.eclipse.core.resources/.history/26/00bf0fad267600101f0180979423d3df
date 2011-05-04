@@ -94,7 +94,7 @@ class PHPEventCalendar
 					if ($event->getColorRGB()) $out .= $event->getColorRGB();
 					else $out .= $this->settings->rgbdefaulteventcolor;
 					$out .= "); display: block; max-height: 1.3em; overflow: hidden; margin: 1px; padding-left: 3px;\">\n";
-					$out .= $event->getVisibleContent().$event->getDuration()."\n";
+					$out .= $event->getVisibleContent()."\n";
 					$out .= "</span>\n";
 				}
 			}
@@ -107,7 +107,7 @@ class PHPEventCalendar
 				if ($event->getColorRGB()) $out .= $event->getColorRGB();
 				else $out .= $this->settings->rgbdefaulteventcolor;
 				$out .= "); display: block; max-height: 1.3em; overflow: hidden; margin: 1px; padding-left: 3px;\">\n";
-				$out .= $event->getVisibleContent().$event->getDuration()."\n";
+				$out .= $event->getVisibleContent()."\n";
 				$out .= "</span>\n";
 			}
 		}

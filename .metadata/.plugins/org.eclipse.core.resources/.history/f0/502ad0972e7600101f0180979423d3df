@@ -33,12 +33,11 @@ echo "</br>";
 $cal2->getAgendaView(15);
 
 $d1 = mktime(10 ,0 ,null ,5 ,4 ,2011);
-$d2 = mktime(11 ,0 ,null ,5 ,4 ,2011);
+$d2 = mktime(null ,null ,null ,null ,null ,null);
 if ($d1 <= $d2) echo "on";
 else echo "ei ole";
-$d3 = $d2 - $d1;
+$d3 = $d1 - $d2;
 echo date("Y-m-d", $d3);
-echo $d3;
 
 //print_r($cal2->getEvents(2011, 4, 23));
 //foreach ($cal2->getEvents() as $event)

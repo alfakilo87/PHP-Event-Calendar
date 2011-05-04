@@ -72,14 +72,11 @@ class Event extends PHPEventCalendar
 	
 	function getDuration()
 	{
-		if ($this->datetime_end > $this->datetime_start)
+		if ($this->datetime_end === null) return null;
+		else
 		{
 			$duration = $this->datetime_end - $this->datetime_start;
 			return $duration;
-		}
-		else
-		{
-			return 0;
 		}
 	}
 	
