@@ -26,6 +26,7 @@ class config
 	var $startonsunday = false;
 	var $showweeknumber = true;
 	var $weekname = 'Nädal';
+	var $allday = 'Terve päev';
 	
 	var $rgbbackgroundcolor = '255,255,255';
 	var $rgbheadercolor = '211,211,211';
@@ -33,6 +34,9 @@ class config
 	var $rgbtodayheadercolor = '255,192,0';
 	var $rgbtodaycolor = '255,246,217';
 	var $rgbdefaulteventcolor = '219,238,243';
+	
+	var $eventminwidthpx = 80;
+	var $eventmaxwidthpx = 150;
 	
 	function getDays($chars = 0)
 	{

@@ -54,26 +54,3 @@ div.event
 	max-width: 200px;
 	white-space: nowrap;
 }
-
-
-
-div.cal table.weekview table.hour
-{
-	border-style: none;
-}
-
-div.cal table.weekview table.hour td
-{
-	display: block;
-	border-style: none none dotted none;
-	border-width: 1px;
-	min-height: 15px;
-	height: 15px;
-	max-height: 15px;
-	overflow: visible;
-}
-
-div.cal table.weekview table.hour td.last
-{
-	border-style: none;
-}
