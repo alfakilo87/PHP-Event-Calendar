@@ -1,7 +1,6 @@
 <html>
 <head>
 <title>PHP Calendar testpage</title>
-<link type="text/css" rel="stylesheet" href="phpeventcalendar/css/style.css">
 </head>
 <body>
 <noscript><br>
@@ -36,7 +35,7 @@ $cal2->addEvent(new Event("See on pikem sündmuse kirjeldus", "", 2011, 5, date("
 $cal2->addEvent(new Event("allday4", "", 2011, 5, date("j")));
 $cal2->getMonthView(2011, 5);
 echo "</br>";
-$cal2->getWeekView(2011, 5, 3);
+$cal2->getWeekView(2011, 5, 10);
 echo "</br>";
 echo "agenda:";
 echo "</br>";

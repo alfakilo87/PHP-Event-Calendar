@@ -1,0 +1,5 @@
+div.cal table.agenda
+{
+	width: 100%;
+	background-color: red;
+}

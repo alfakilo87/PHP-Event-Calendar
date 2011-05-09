@@ -5,8 +5,8 @@ require_once 'event.php';
 
 class PHPEventCalendar
 {
-	var $settings;
-	var $events;
+	private $settings;
+	private $events;
 	
 	function PHPEventCalendar()
 	{
@@ -19,7 +19,7 @@ class PHPEventCalendar
 		array_push($this->events, $event);
 	}
 	
-	function getNumberOfEvents($year, $month, $day, $hour = false, $min = false)
+	private function getNumberOfEvents($year, $month, $day, $hour = false, $min = false)
 	{
 		$out = 0;
 		if ($hour != false)
@@ -40,13 +40,13 @@ class PHPEventCalendar
 		return $out;
 	}
 	
-	function getEventHeight($duration)
+	private function getEventHeight($duration)
 	{
 		if ($duration > 900) return $duration / 60;
 		else return 15;
 	}
 	
-	function getEvents($year, $month, $day, $hr = null, $min = null, $allday = true)
+	private function getEvents($year, $month, $day, $hr = null, $min = null, $allday = true)
 	{
 		$dt1 = mktime($hr, $min, 0, $month, $day, $year);
 		$dt2 = mktime($hr, $min + 15, 0, $month, $day, $year);
@@ -93,7 +93,7 @@ class PHPEventCalendar
 		return $out;
 	}
 	
-	function drawSmallSizeEvents($year, $month, $day, $allday = false)
+	private function drawSmallSizeEvents($year, $month, $day, $allday = false)
 	{
 		$out = "";
 		
@@ -127,7 +127,7 @@ class PHPEventCalendar
 		return $out;
 	}
 	
-	function drawEvents($year, $month, $day, $hour, $min)
+	private function drawEvents($year, $month, $day, $hour, $min)
 	{
 		$out = "";
 		$dt = mktime($hour, $min, 0, $month, $day, $year);
@@ -156,7 +156,7 @@ class PHPEventCalendar
 		return $out;
 	}
 	
-	function getFirstDateForMonthView($year, $month)
+	private function getFirstDateForMonthView($year, $month)
 	{
 		$date1 = mktime(0, 0, 0, $month, 1, $year);
 		$date2 = $date1;
@@ -168,7 +168,7 @@ class PHPEventCalendar
 		return $date2 + 1;
 	}
 	
-	function getFirstDateForWeekView($year, $month, $day)
+	private function getFirstDateForWeekView($year, $month, $day)
 	{
 		$date1 = mktime(0, 0, 0, $month, $day, $year);
 		$date2 = $date1;
@@ -188,25 +188,22 @@ class PHPEventCalendar
 		$FirstDay = $this->getFirstDateForMonthView($year, $month);
 		$date = $FirstDay;
 		$pr = 100/7;
+		$today = false;
+		include_once "css.php";
 		$out = "";
-		$out .= "<div class=\"cal\">\n<table class=\"monthview\" cellspacing=\"1\" style=\"width: 100%; background-color: rgb(".$this->settings->rgbheadercolor.");\">\n<caption style=\"background-color: rgb(".$this->settings->rgbheadercolor.");\">";
+		$out .= "<div class=\"cal\">\n<table class=\"month\" cellspacing=\"1\">\n<caption>";
 		$m = $this->settings->getMonths();
 		$out .= $m[$month - 1]." ".$year;
-		$out .= "</caption>\n<tbody>\n";
-		$out .= "<tr>\n";
+		$out .= "</caption>\n<tbody>\n<tr>\n";
 		if ($this->settings->showweeknumber)
 		{
 			$out .= "<th style=\"min-width: 50px;\">".$this->settings->weekname."</th>\n";
 		}
 		foreach ($this->settings->getDays() as $d)
 		{
-			$out .= "<th style=\"width: ".$pr."%; min-width: 100px; max-width: 200px;\">".$d."</th>\n";
+			$out .= "<th class=\"weekday\" style=\"width: ".$pr."%;\">".$d."</th>\n";
 		}
 		$out .= "</tr>\n";
-		for ($i = 1; $i <= 4; $i++)
-		{
-			
-		}
 		while (date("Y-m", $date) <= date("Y-m", $dateToday))
 		{
 			$out .= "<tr>\n";
@@ -216,24 +213,18 @@ class PHPEventCalendar
 			}
 			for ($j = 1; $j <= 7; $j++)
 			{
-				$out .= "<td id=\"\" style=\"background-color: rgb(".$this->settings->rgbbackgroundcolor.");";
-				if (date("Y-m-d", $date) === date("Y-m-d")) $out .= " border-style: solid; border-width: 1px; border-color: rgb(".$this->settings->rgbtodayheadercolor.");";
-				$out .= "\">\n";
-				
-				$out .= "<table class=\"day\" cellspacing=\"0\" style=\"width: 100%;\">\n<tbody>\n<tr>\n";
-				
-				$out .= "<th";
-				if (date("Y-m-d", $date) === date("Y-m-d")) $out .= " style=\"background-color: rgb(".$this->settings->rgbtodayheadercolor.");\"";
-				$out .= ">".date("j", $date)."</th>\n";
-				
-				$out .= "</tr>\n<tr>\n";
-				$out .= "<td>\n";
+				if (date("Y-m-d", $date) === date("Y-m-d")) $today = true;
+				else $today = false;
+				$out .= "<td id=\"\" class=\"";
+				if ($today != false) $out .= "today";
+				else $out .= "notoday";
+				$out .= "\">\n<table class=\"day\" cellspacing=\"0\">\n<tbody>\n<tr>\n<th";
+				if ($today != false) $out .= " class=\"today\"";
+				$out .= ">".date("j", $date)."</th>\n</tr>\n<tr>\n<td>\n<div class=\"content\">\n";
 				
 				$out .= $this->drawSmallSizeEvents(date("Y", $date), date("n", $date), date("j", $date));
 				
-				$out .= "</td>\n";
-				$out .= "</tr>\n</tbody>\n</table>\n";
-				
+				$out .= "</div>\n</td>\n</tr>\n</tbody>\n</table>\n";
 				$out .= "</td>\n";
 				$date = mktime(0, 0, 0, date("m", $date), date("d", $date) + 1, date("y", $date));
 			}
@@ -248,15 +239,19 @@ class PHPEventCalendar
 		$startdatetime = $this->getFirstDateForWeekView($year, $month, $day);
 		$seqdatetime = $startdatetime;
 		$proportion = 100/7;
+		$today = false;
+		include_once "css.php";
 		$out = "";
-		$out .= "<div class=\"cal\">\n<table class=\"weekview\" cellspacing=\"1\" style=\"width: 100%; background-color: rgb(".$this->settings->rgbheadercolor.");\">\n<tbody>\n";
-		$out .= "<tr>\n";
+		$out .= "<div class=\"cal\">\n<table class=\"week\" cellspacing=\"1\">\n<tbody>\n<tr>\n";
 		$out .= "<th rowspan=\"2\" style=\"min-width: 50px;\"></th>\n";
 		foreach ($this->settings->getDays(1) as $d)
 		{
-			$out .= "<th style=\"width: ".$proportion."%; min-width: 100px;";
-			if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $out .= " background-color: rgb(".$this->settings->rgbtodayheadercolor.");";
-			$out .= "\">".$d." ".date("j.n", $seqdatetime)."</th>\n";
+			if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $today = true;
+			else $today = false;
+			$out .= "<th class=\"";
+			if ($today != false) $out .= "today";
+			else $out .= "day";
+			$out .= "\" style=\"width: ".$proportion."%;\">".$d." ".date("j.n", $seqdatetime)."</th>\n";
 			$seqdatetime = mktime(0, 0, 0, date("m", $seqdatetime), date("d", $seqdatetime) + 1, date("y", $seqdatetime));
 		}
 		$seqdatetime = $startdatetime;
@@ -264,14 +259,13 @@ class PHPEventCalendar
 		$out .= "<tr class=\"allday\">\n";
 		foreach ($this->settings->getDays() as $d)
 		{
-			$out .= "<td style=\"border-bottom-style: solid; border-width: 5px; font-size: small; border-color: rgb(".$this->settings->rgbheadercolor."); background-color: rgb(";
-			if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $out .= $this->settings->rgbtodaycolor;
-			else $out .= $this->settings->rgbbackgroundcolor;
-			$out .= ")\"><div style=\"min-height: 40px;\">";
+			$out .= "<td";
+			if ($today != false) $out .= " class=\"today\"";
+			$out .= ">\n<div style=\"min-height: 40px;\">";
 			
 			$out .= $this->drawSmallSizeEvents(date("Y", $seqdatetime), date("n", $seqdatetime), date("j", $seqdatetime), true);
 			
-			$out .= "</div></td>\n";
+			$out .= "</div>\n</td>\n";
 			$seqdatetime = mktime(0, 0, 0, date("m", $seqdatetime), date("d", $seqdatetime) + 1, date("y", $seqdatetime));
 		}
 		$seqdatetime = $startdatetime;
@@ -279,60 +273,46 @@ class PHPEventCalendar
 		for ($i = 0; $i <= 23; $i++)
 		{
 			$out .= "<tr class=\"hour\">\n";
-			$out .= "<th style=\"text-align: right; vertical-align: top;\">".date("H:i", $seqdatetime)."</th>\n";
+			$out .= "<th class=\"hour\">".date("H:i", $seqdatetime)."</th>\n";
 			for ($j = 1; $j <= 7; $j++)
 			{
-				$out .= "<td id=\"\" style=\"background-color: rgb(";
-				if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $out .= $this->settings->rgbtodaycolor;
-				else $out .= $this->settings->rgbbackgroundcolor;
-				$out .= "); font-size: small;\">\n";
+				$out .= "<td class=\"";
+				if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $out .= "today";
+				else $out .= "notoday";
+				$out .= "\">\n";
 				
-				$out .= "<table class=\"hour\" cellspacing=\"0\" style=\"width: 100%; border-color: rgb(".$this->settings->rgbheadercolor.");\">\n<tbody>\n<tr>\n";
-				$out .= "<td style=\"display: block; position: relative; border-bottom-style: dotted; border-width: 1px; height: 14px; min-height: 14px; max-height: 14px; overflow: visible; border-color: rgb(".$this->settings->rgbheadercolor.");\">";
+				$out .= "<div id=\"".$seqdatetime."\" class=\"quarter\">\n";
+				$w = $this->getNumberOfEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime)) * 100;
+				$out .= "<div style=\"width: ".$w."px;\"></div>";
+
+				$out .= $this->drawEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime), $proportion);
+				$seqdatetime = mktime(date("G", $seqdatetime), date("i", $seqdatetime) + 15, 0, date("m", $seqdatetime), date("d", $seqdatetime), date("y", $seqdatetime));
+				
+				$out .= "</div>\n";
+				$out .= "<div id=\"".$seqdatetime."\" class=\"quarter\">\n";
 				$w = $this->getNumberOfEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime)) * 100;
 				$out .= "<div style=\"width: ".$w."px;\"></div>";
 				
 				$out .= $this->drawEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime), $proportion);
-				//$out .= date("G:i", $seqdatetime);
 				$seqdatetime = mktime(date("G", $seqdatetime), date("i", $seqdatetime) + 15, 0, date("m", $seqdatetime), date("d", $seqdatetime), date("y", $seqdatetime));
 				
-				$out .= "</td>\n";
-				$out .= "</tr>\n";
-				$out .= "<tr>\n";
-				$out .= "<td style=\"display: block; position: relative; border-bottom-style: dotted; border-width: 1px; height: 14px; min-height: 14px; max-height: 14px; overflow: visible; border-color: rgb(".$this->settings->rgbheadercolor.");\">";
+				$out .= "</div>\n";
+				$out .= "<div id=\"".$seqdatetime."\" class=\"quarter\">\n";
 				$w = $this->getNumberOfEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime)) * 100;
 				$out .= "<div style=\"width: ".$w."px;\"></div>";
 				
 				$out .= $this->drawEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime), $proportion);
-				//$out .= date("G:i", $seqdatetime);
 				$seqdatetime = mktime(date("G", $seqdatetime), date("i", $seqdatetime) + 15, 0, date("m", $seqdatetime), date("d", $seqdatetime), date("y", $seqdatetime));
 				
-				$out .= "</td>\n";
-				$out .= "</tr>\n";
-				$out .= "<tr>\n";
-				$out .= "<td style=\"display: block; position: relative; border-bottom-style: dotted; border-width: 1px; height: 14px; min-height: 14px; max-height: 14px; overflow: visible; border-color: rgb(".$this->settings->rgbheadercolor.");\">";
+				$out .= "</div>\n";
+				$out .= "<div id=\"".$seqdatetime."\" class=\"lquarter\">\n";
 				$w = $this->getNumberOfEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime)) * 100;
 				$out .= "<div style=\"width: ".$w."px;\"></div>";
 				
 				$out .= $this->drawEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime), $proportion);
-				//$out .= date("G:i", $seqdatetime);
 				$seqdatetime = mktime(date("G", $seqdatetime), date("i", $seqdatetime) + 15, 0, date("m", $seqdatetime), date("d", $seqdatetime), date("y", $seqdatetime));
 				
-				$out .= "</td>\n";
-				$out .= "</tr>\n";
-				$out .= "<tr>\n";
-				$out .= "<td class=\"last\" style=\"display: block; position: relative; height: 14px; min-height: 14px; max-height: 14px; overflow: visible; border-color: rgb(".$this->settings->rgbheadercolor.");\">";
-				$w = $this->getNumberOfEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime)) * 100;
-				$out .= "<div style=\"width: ".$w."px;\"></div>";
-				
-				$out .= $this->drawEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime), date("H", $seqdatetime), date("i", $seqdatetime), $proportion);
-				//$out .= date("G:i", $seqdatetime);
-				$seqdatetime = mktime(date("G", $seqdatetime), date("i", $seqdatetime) + 15, 0, date("m", $seqdatetime), date("d", $seqdatetime), date("y", $seqdatetime));
-				
-				$out .= "</td>\n";
-				$out .= "</tr>\n</tbody>\n</table>\n";
-				
-				$out .= "</td>\n";
+				$out .= "</div>\n</td>\n";
 				$seqdatetime = mktime(date("G", $seqdatetime), date("i", $seqdatetime) - 60, 0, date("m", $seqdatetime), date("d", $seqdatetime) + 1, date("y", $seqdatetime));
 			}
 			$out .= "</tr>\n";
@@ -346,40 +326,37 @@ class PHPEventCalendar
 	{
 		$startdatetime = mktime(0, 0, 0, date("m"), date("d"), date("y"));
 		$seqdatetime = $startdatetime;
+		$today = false;
+		include_once "css.php";
 		$out = "";
 		$out .= "<div class=\"cal\">\n";
-		$out .= "<table class=\"agenda\" cellspacing=\"1\" style=\"width: 100%; background-color: rgb(".$this->settings->rgbheadercolor.");\">\n";
+		$out .= "<table class=\"agenda\" cellspacing=\"1\">\n";
 		$out .= "<tbody>\n";
 		
 		for ($i = 1; $i <= $days; $i++)
 		{
 			if ($this->getNumberOfEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime)) >= 1)
 			{
-				$out .= "<tr>\n";
-				$out .= "<th style=\"";
-				if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $out .= "background-color: rgb(".$this->settings->rgbtodayheadercolor.");";
-				$out .= "width: 50px; min-width: 50px; vertical-align: top;\">".date("j.n", $seqdatetime)."</th>\n";
-				$out .= "<td style=\"background-color: rgb(";
-				if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $out .= $this->settings->rgbtodaycolor;
-				else $out .= $this->settings->rgbbackgroundcolor;
-				$out .= ");\">";
-				$out .= "<table cellspacing=\"0\" style=\"width: 100%;\">\n";
-				$out .= "<tbody>\n";
+				if (date("Y-m-d", $seqdatetime) === date("Y-m-d")) $today = true;
+				else $today = false;
+				$out .= "<tr>\n<th";
+				if ($today != false) $out .= " class=\"today\"";
+				$out .= ">".date("j.n", $seqdatetime)."</th>\n<td class=\"";
+				if ($today != false) $out .= "today";
+				else $out .= "day";
+				$out .= "\">\n<table class=\"day22\" cellspacing=\"0\">\n<tbody>\n";
 				
 				foreach ($this->getEvents(date("Y", $seqdatetime), date("m", $seqdatetime), date("d", $seqdatetime)) as $event)
 				{
-					$out .= "<tr>\n";
-					$out .= "<td style=\"width: 100px; text-align: center;\">";
+					$out .= "<tr";
+					if ($event->getColorRGB()) $out .= " style=\"color: rgb(".$event->getColorRGB().");\"";
+					$out .= ">\n<td class=\"time\">";
 					if (date("Y", $event->datetime_end) >= date("Y"))
 					{
 						$out .= date("H:i", $event->datetime_start)." - ".date("H:i", $event->datetime_end);
 					}
 					else $out .= $this->settings->allday;
-					$out .= "</td>\n";
-					$out .= "<td";
-					if ($event->getColorRGB()) $out .= " style=\"color: rgb(".$event->getColorRGB().");\"";
-					$out .= ">".$event->content_visible."</td>\n";
-					$out .= "</tr>\n";
+					$out .= "</td>\n<td>".$event->content_visible."</td>\n</tr>\n";
 				}
 				
 				$out .= "</tbody>\n";

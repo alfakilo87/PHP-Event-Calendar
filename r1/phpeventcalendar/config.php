@@ -25,6 +25,7 @@ class config
 	
 	var $startonsunday = false;
 	var $showweeknumber = true;
+	var $fontfamily = 'calibri';
 	var $weekname = 'Nädal';
 	var $allday = 'Terve päev';
 	
@@ -36,7 +37,7 @@ class config
 	var $rgbdefaulteventcolor = '219,238,243';
 	
 	var $eventminwidthpx = 80;
-	var $eventmaxwidthpx = 150;
+	var $eventmaxwidthpx = 200;
 	
 	function getDays($chars = 0)
 	{
