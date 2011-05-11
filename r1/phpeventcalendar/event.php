@@ -10,17 +10,6 @@ class Event extends PHPEventCalendar
 	var $duration;
 	var $checked;
 	
-//	var $year_start;
-//	var $month_start;
-//	var $day_start;
-//	var $hour_start;
-//	var $min_start;
-//	var $year_finish;
-//	var $month_finish;
-//	var $day_finish;
-//	var $hour_finish;
-//	var $min_finish;
-	
 	public function Event($content_vis, $content_hid, $year_st, $month_st, $day_st, $hour_st = 0, $min_st = 0, $year_end = 0, $month_end = 0, $day_end = 0, $hour_end = 0, $min_end = 0)
 	{
 		$this->content_visible = $content_vis;
@@ -30,17 +19,6 @@ class Event extends PHPEventCalendar
 		$this->datetime_end = mktime($hour_end, $min_end, 0, $month_end, $day_end, $year_end);
 		$this->duration = $this->getDuration();
 		$this->checked = false;
-		
-//		$this->year_start = $year_st;
-//		$this->month_start = $month_st;
-//		$this->day_start = $day_st;
-//		$this->hour_start = $hour_st;
-//		$this->min_start = $min_st;
-//		$this->year_finish = $year_fs;
-//		$this->month_finish = $month_fs;
-//		$this->day_finish = $day_fs;
-//		$this->hour_finish = $hour_fs;
-//		$this->min_finish = $min_fs;
 	}
 	
 	function setColorRGB($RGBstring)
@@ -57,21 +35,6 @@ class Event extends PHPEventCalendar
 	{
 		if ($this->getDuration() == 0 || date("j", $this->datetime_start) != date("j", $this->datetime_end) || date("n", $this->datetime_start) != date("n", $this->datetime_end) || date("Y", $this->datetime_start) != date("Y", $this->datetime_end)) return true;
 		else return false;
-	}
-	
-	function getVisibleContent()
-	{
-		return $this->content_visible;
-	}
-	
-	function getHiddenContent()
-	{
-		return $this->content_hidden;
-	}
-	
-	function getDateTimeStart()
-	{
-		return $this->datetime_start;
 	}
 	
 	function isRunningOnSpecTime($year, $month, $day, $hour, $min)
@@ -93,19 +56,6 @@ class Event extends PHPEventCalendar
 			return $duration;
 		}
 		else return 0;
-	}
-	
-	/**
- 	*
- 	* Get datetime finish of event
- 	*
- 	* @param	none
- 	* @return	false or datetime
- 	*
- 	*/
-	function getDateTimeEnd()
-	{
-		return $this->datetime_end;
 	}
 }
 

@@ -72,7 +72,7 @@ div.cal table.week tr.allday td
 	border-bottom-style: solid;
 	border-width: 5px;
 	border-color: rgb(".$config->rgbheadercolor.");
-	font-size: small;
+	font-size: 10pt;
 }
 
 div.cal table.week tr.allday td.today
@@ -88,7 +88,7 @@ div.cal table.week tr.hour th.hour
 
 div.cal table.week tr.hour td
 {
-	font-size: small;
+	font-size: 10pt;
 }
 
 div.cal table.week tr.hour td.notoday
@@ -162,7 +162,8 @@ div.cal table.month td.today
 div.cal table.month td table.day
 {
 	width: 100%;
-	font-size: small;
+	font-size: 10pt;
+	height: 60px;
 }
 
 div.cal table.month table.day th
@@ -183,6 +184,29 @@ div.cal table.month td.today table.day th
 div.cal table.month table.day div.content
 {
 	min-height: 50px;
+}
+
+div.cal div.event
+{
+	position: absolute;
+	float: left;
+	overflow: hidden;
+	border-color: rgb(".$config->rgbheadercolor.");
+	font-size: 10pt;
+	min-width: ".$config->eventminwidthpx."px;
+	max-width: ".$config->eventmaxwidthpx."px;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	z-index: 1;
+}
+
+div.cal div.sevent
+{
+	max-height: 1.3em;
+	overflow: hidden;
+	margin: 1px;
+	padding-left: 3px;
 }
 
 </style>

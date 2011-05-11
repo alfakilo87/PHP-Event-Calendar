@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>PHP Calendar testpage</title>
+</head>
+<body>
+<noscript><br>
+Some features are not available, because Your browser does not support
+JavaScript! <br>
+</noscript>
+
+<?php
+
+require_once 'phpeventcalendar/phpeventcal.php';
+$cal2 = new PHPEventCalendar();
+$e1 = new Event("terve päeva kestev sündmus1", "", 2011, 5, 9);
+$e1->setColorRGB("100,100,100");
+$cal2->addEvent($e1);
+$cal2->addEvent(new Event("sündmus 0", "", 2011, 5, 10, 2, 0, 2011, 5, 10, 3, 15));
+$cal2->addEvent(new Event("terve päeva kestev sündmus2", "", 2011, 5, 7, 0, 0));
+$cal2->addEvent(new Event("sündmus 1", "", 2011, 5, 3, 15, 0, 2011, 5, 3, 15, 30));
+$e2 = new Event("sündmus 2", "", 2011, 5, 3, 15, 0, 2011, 5, 3, 15, 15);
+$cal2->addEvent($e2);
+$cal2->addEvent(new Event("sündmus 3", "", 2011, 5, 4, 16, 45, 2011, 5, 4, 18, 0));
+$cal2->addEvent(new Event("sündmus 4", "", 2011, 5, 4, 16, 0, 2011, 5, 4, 18, 0));
+$cal2->addEvent(new Event("sündmus 5", "", 2011, 5, 4, 16, 30, 2011, 5, 4, 17, 0));
+$cal2->addEvent(new Event("sündmus 6", "", 2011, 5, 4, 16, 0, 2011, 5, 4, 17, 0));
+$cal2->addEvent(new Event("sündmus 7", "", 2011, 5, 4, 18, 0, 2011, 5, 4, 18, 45));
+$cal2->addEvent(new Event("sündmus 8", "", 2011, 5, 12, 16, 0, 2011, 5, 12, 18, 0));
+$cal2->addEvent(new Event("sündmus 9", "", 2011, 5, 12, 16, 0, 2011, 5, 12, 17, 0));
+$cal2->addEvent(new Event("sündmus 10", "", 2011, 5, 12, 16, 30, 2011, 5, 12, 17, 0));
+$cal2->addEvent(new Event("sündmus 11", "", 2011, 5, 12, 16, 45, 2011, 5, 12, 18, 0));
+$cal2->addEvent(new Event("sündmus 12", "", 2011, 5, 12, 18, 0, 2011, 5, 12, 18, 45));
+$cal2->addEvent(new Event("See on pikem sündmuse kirjeldus", "", 2011, 5, date("j"), 4, 15, 2011, 5, date("j"), 5, 30));
+$cal2->addEvent(new Event("terve päeva kestev sündmus3", "", 2011, 5, date("j")));
+$cal2->getMonthView(2011, 5);
+echo "<br>";
+$cal2->getWeekView(2011, 5, 10);
+echo "<br>";
+$cal2->getAgendaView(15);
+
+function cmp($a, $b) {
+    if ($a == $b) return 0;
+    if ($a < $b) return 1;
+    if ($a > $b) return -1;
+}
+    
+//$fruits = $cal2->events;
+//uasort($fruits, "cmp");
+//foreach ($fruits as $event) {
+//    print date("Y.m.d H:i", $event->datetime_start)."<br>";
+//}
+
+print_r($cal2->events);
+
+//print_r($cal2->getEvents(2011, 4, 23));
+//foreach ($cal2->getEvents() as $event)
+//{
+//	echo date("Y", $event->getDateTimeStart());
+//}
+
+//print_r($cal2->settings->getDays(1));
+//print_r($cal2->settings->getMonths(3));
+
+?>
+
+</body>
+</html>
