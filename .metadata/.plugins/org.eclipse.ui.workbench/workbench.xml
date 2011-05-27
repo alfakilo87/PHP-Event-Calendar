@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="49" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="150" y="40">
 <fastViewData fastViewLocation="1024"/>
@@ -12,7 +12,7 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.wst.jsdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -33,33 +33,43 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="4"/>
+<part id="3"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="phpeventcal.php" partName="phpeventcal.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/phpeventcalendar/phpeventcal.php" title="phpeventcal.php" tooltip="r1/phpeventcalendar/phpeventcal.php" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.php.editor" name="phpeventcal.php" partName="phpeventcal.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/phpeventcalendar/phpeventcal.php" title="phpeventcal.php" tooltip="r1/phpeventcalendar/phpeventcal.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/phpeventcalendar/phpeventcal.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13450" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="203" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.php.editor" name="test2.php" partName="test2.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/test2.php" title="test2.php" tooltip="r1/test2.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/test2.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2463" selectionTopPixel="816"/>
+<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="2869" selectionTopPixel="940"/>
 </editor>
 <editor id="org.eclipse.php.editor" name="config.php" partName="config.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/phpeventcalendar/config.php" title="config.php" tooltip="r1/phpeventcalendar/config.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/phpeventcalendar/config.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1887" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.php.editor" name="event.php" partName="event.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/phpeventcalendar/event.php" title="event.php" tooltip="r1/phpeventcalendar/event.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/phpeventcalendar/event.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="120" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="48" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.php.editor" name="css.php" partName="css.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/phpeventcalendar/css.php" title="css.php" tooltip="r1/phpeventcalendar/css.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/phpeventcalendar/css.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="3599" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3325" selectionTopPixel="2929"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="event.php" partName="event.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/phpeventcalendar/event.php" title="event.php" tooltip="r1/phpeventcalendar/event.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/phpeventcalendar/event.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="489" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="w_3.php" partName="w_3.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/activecalendar/data/w_3.php" title="w_3.php" tooltip="r1/activecalendar/data/w_3.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/activecalendar/data/w_3.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="99" selectionOffset="359" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="w_1.php" partName="w_1.php" path="D:/Eclipse_ws/PHP-Event-Calendar/r1/activecalendar/data/w_1.php" title="w_1.php" tooltip="r1/activecalendar/data/w_1.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/r1/activecalendar/data/w_1.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="337" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -312,163 +322,169 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/phpeventcal.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/event.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/config.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/phpeventcal.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/test2.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/view.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/config.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/event.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/css.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/test2.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/phpeventcal.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/event.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/config.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/phpeventcalendar/phpeventcal.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/activecalendar/examples.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/activecalendar/data/w_2.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/activecalendar/data/w_4.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/activecalendar/data/w_3.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/r1/activecalendar/data/w_1.php"/>
 </editors>
-<item historyLabel="test2.php" index="0">
-<position info="not_deleted" x="2521" y="0"/>
-</item>
 <item historyLabel="event.php" index="2">
-<position info="not_deleted" x="1770" y="0"/>
-</item>
-<item historyLabel="phpeventcal.php" index="1">
-<position info="not_deleted" x="3868" y="3"/>
+<position info="not_deleted" x="120" y="14"/>
 </item>
 <item historyLabel="test2.php" index="0">
-<position info="not_deleted" x="2521" y="0"/>
-</item>
-<item historyLabel="event.php" index="2">
-<position info="not_deleted" x="1770" y="0"/>
-</item>
-<item historyLabel="phpeventcal.php" index="1">
-<position info="not_deleted" x="3868" y="3"/>
-</item>
-<item historyLabel="event.php" index="2">
-<position info="not_deleted" x="56" y="15"/>
-</item>
-<item historyLabel="phpeventcal.php" index="1">
-<position info="not_deleted" x="11094" y="14"/>
+<position/>
 </item>
 <item historyLabel="event.php" index="2">
 <position info="not_deleted" x="120" y="14"/>
 </item>
-<item historyLabel="phpeventcal.php" index="1">
-<position info="not_deleted" x="11094" y="14"/>
-</item>
-<item historyLabel="config.php" index="3">
-<position info="not_deleted" x="636" y="0"/>
-</item>
-<item historyLabel="phpeventcal.php" index="1">
-<position info="not_deleted" x="11018" y="0"/>
-</item>
-<item historyLabel="event.php" index="4">
-<position info="not_deleted" x="156" y="0"/>
-</item>
-<item historyLabel="config.php" index="3">
-<position info="not_deleted" x="636" y="0"/>
-</item>
-<item historyLabel="css.php" index="5">
-<position info="not_deleted" x="3454" y="0"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2671" y="0"/>
-</item>
-<item historyLabel="phpeventcal.php" index="7">
-<position info="not_deleted" x="164" y="0"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2582" y="0"/>
-</item>
-<item historyLabel="phpeventcal.php" index="7">
-<position info="not_deleted" x="127" y="0"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2582" y="0"/>
-</item>
-<item historyLabel="event.php" index="8">
-<position info="not_deleted" x="163" y="9"/>
-</item>
-<item historyLabel="phpeventcal.php" index="7">
-<position info="not_deleted" x="127" y="0"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position/>
-</item>
-<item historyLabel="phpeventcal.php" index="7">
-<position info="not_deleted" x="118" y="0"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position/>
-</item>
-<item historyLabel="event.php" index="8">
-<position info="not_deleted" x="120" y="14"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position/>
-</item>
-<item historyLabel="phpeventcal.php" index="7">
-<position info="not_deleted" x="118" y="0"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position/>
-</item>
-<item historyLabel="event.php" index="8">
-<position info="not_deleted" x="120" y="14"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position/>
-</item>
-<item historyLabel="event.php" index="8">
-<position info="not_deleted" x="120" y="14"/>
-</item>
-<item historyLabel="test2.php" index="6">
+<item historyLabel="test2.php" index="0">
 <position info="not_deleted" x="1475" y="0"/>
 </item>
-<item historyLabel="phpeventcal.php" index="7">
+<item historyLabel="phpeventcal.php" index="1">
 <position info="not_deleted" x="118" y="0"/>
 </item>
-<item historyLabel="config.php" index="9">
+<item historyLabel="config.php" index="3">
+<position info="not_deleted" x="1887" y="0"/>
+</item>
+<item historyLabel="event.php" index="2">
+<position info="not_deleted" x="120" y="14"/>
+</item>
+<item historyLabel="phpeventcal.php" index="1">
+<position info="not_deleted" x="13125" y="0"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="1475" y="0"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2579" y="0"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2439" y="2"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2584" y="0"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2441" y="141"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2218" y="0"/>
+</item>
+<item historyLabel="event.php" index="2">
+<position info="not_deleted" x="120" y="14"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2218" y="0"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2153" y="0"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2580" y="0"/>
+</item>
+<item historyLabel="test2.php" index="0">
+<position info="not_deleted" x="2576" y="3"/>
+</item>
+<item historyLabel="phpeventcal.php" index="4">
+<position info="not_deleted" x="13129" y="0"/>
+</item>
+<item historyLabel="test2.php" index="5">
+<position info="not_deleted" x="2629" y="0"/>
+</item>
+<item historyLabel="test2.php" index="5">
+<position info="not_deleted" x="1942" y="686"/>
+</item>
+<item historyLabel="view.php" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="test2.php" index="5">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="config.php" index="7">
 <position info="not_deleted" x="1887" y="0"/>
 </item>
 <item historyLabel="event.php" index="8">
 <position info="not_deleted" x="120" y="14"/>
 </item>
-<item historyLabel="phpeventcal.php" index="7">
-<position info="not_deleted" x="13125" y="0"/>
+<item historyLabel="config.php" index="7">
+<position info="not_deleted" x="48" y="0"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="1475" y="0"/>
+<item historyLabel="css.php" index="9">
+<position info="not_deleted" x="0" y="3643"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2579" y="0"/>
+<item historyLabel="phpeventcal.php" index="10">
+<position info="not_deleted" x="164" y="0"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2439" y="2"/>
+<item historyLabel="css.php" index="9">
+<position info="not_deleted" x="62" y="0"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2584" y="0"/>
+<item historyLabel="phpeventcal.php" index="10">
+<position info="not_deleted" x="179" y="8"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2441" y="141"/>
-</item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2218" y="0"/>
+<item historyLabel="css.php" index="9">
+<position info="not_deleted" x="3325" y="0"/>
 </item>
 <item historyLabel="event.php" index="8">
-<position info="not_deleted" x="120" y="14"/>
+<position info="not_deleted" x="489" y="0"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2218" y="0"/>
+<item historyLabel="test2.php" index="5">
+<position info="not_deleted" x="1938" y="0"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2153" y="0"/>
+<item historyLabel="phpeventcal.php" index="11">
+<position info="not_deleted" x="203" y="0"/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2580" y="0"/>
+<item historyLabel="examples.php" index="12">
+<position/>
 </item>
-<item historyLabel="test2.php" index="6">
-<position info="not_deleted" x="2576" y="3"/>
+<item historyLabel="w_2.php" index="13">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="phpeventcal.php" index="10">
-<position info="not_deleted" x="13129" y="0"/>
+<item historyLabel="examples.php" index="12">
+<position/>
+</item>
+<item historyLabel="w_2.php" index="13">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="examples.php" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="w_2.php" index="13">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="w_4.php" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="w_2.php" index="13">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="phpeventcal.php" index="11">
+<position info="not_deleted" x="203" y="0"/>
+</item>
+<item historyLabel="w_3.php" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="w_1.php" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="w_3.php" index="15">
+<position info="not_deleted" x="499" y="47"/>
+</item>
+<item historyLabel="w_1.php" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="w_3.php" index="15">
+<position info="not_deleted" x="359" y="99"/>
+</item>
+<item active="true" historyLabel="w_1.php" index="16">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -487,6 +503,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="w_1.php" tooltip="r1/activecalendar/data/w_1.php">
+<persistable path="/r1/activecalendar/data/w_1.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="w_3.php" tooltip="r1/activecalendar/data/w_3.php">
+<persistable path="/r1/activecalendar/data/w_3.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="w_4.php" tooltip="r1/activecalendar/data/w_4.php">
+<persistable path="/r1/activecalendar/data/w_4.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="examples.php" tooltip="r1/activecalendar/examples.php">
+<persistable path="/r1/activecalendar/examples.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="w_2.php" tooltip="r1/activecalendar/data/w_2.php">
+<persistable path="/r1/activecalendar/data/w_2.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="event.php" tooltip="r1/phpeventcalendar/event.php">
+<persistable path="/r1/phpeventcalendar/event.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="view.php" tooltip="r1/phpeventcalendar/view.php">
+<persistable path="/r1/phpeventcalendar/view.php"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="css.php" tooltip="r1/phpeventcalendar/css.php">
 <persistable path="/r1/phpeventcalendar/css.php"/>
 </file>
@@ -505,32 +542,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="javascript.php" tooltip="r1/activecalendar/data/javascript.php">
 <persistable path="/r1/activecalendar/data/javascript.php"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="w_3.php" tooltip="r1/activecalendar/data/w_3.php">
-<persistable path="/r1/activecalendar/data/w_3.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="w_4.php" tooltip="r1/activecalendar/data/w_4.php">
-<persistable path="/r1/activecalendar/data/w_4.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="event.php" tooltip="r1/phpeventcalendar/event.php">
-<persistable path="/r1/phpeventcalendar/event.php"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="config.php" tooltip="r1/phpeventcalendar/config.php">
 <persistable path="/r1/phpeventcalendar/config.php"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="test2.php" tooltip="r1/test2.php">
 <persistable path="/r1/test2.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="r1/phpeventcalendar/css/style.css">
-<persistable path="/r1/phpeventcalendar/css/style.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="view.php" tooltip="r1/phpeventcalendar/view.php">
-<persistable path="/r1/phpeventcalendar/view.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="phpeventcal.php" tooltip="r1/phpeventcalendar/phpeventcal.php">
-<persistable path="/r1/phpeventcalendar/phpeventcal.php"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="phpeventcal.php" tooltip="r1/phpeventcal.php">
-<persistable path="/r1/phpeventcal.php"/>
 </file>
 </mruList>
 </workbench>

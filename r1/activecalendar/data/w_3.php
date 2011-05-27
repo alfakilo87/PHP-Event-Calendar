@@ -6,6 +6,7 @@ $cal->enableWeekNum("Week");
 $cal->setEventContent("2010","2","2","Google","http://www.google.com");
 $cal->setEventContent("2010","2","11","<img src=\"img/pager.png\" border=\"0\" alt=\"\" /> meeting");
 $cal->setEventContent("2010","2","23","<img src=\"img/ok.png\" border=\"0\" alt=\"\" /> birthday");
+$cal->setEventContent("2010","2","23","<div style=\"background-color: red;\">div</div>");
 $multipleLinesEvent=array("Title: News","Time: 16.00","Status: ok"); 
 for ($x=1;$x<=5;$x++) $cal->setEventContent("2010","3",$x,$multipleLinesEvent);
 ?> 

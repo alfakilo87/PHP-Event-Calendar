@@ -10,7 +10,7 @@ class PHPEventCalendar
 	
 	function PHPEventCalendar()
 	{
-		$this->settings = new config();
+		$this->settings = new Config();
 		$this->events = array();
 	}
 	

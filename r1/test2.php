@@ -38,31 +38,31 @@ $cal2->getWeekView(2011, 5, 10);
 echo "<br>";
 $cal2->getAgendaView(15);
 
-$newarr = array();
-$newsubarr = array();
-foreach ($cal2->events as $event)
-{
-	array_push($newsubarr, "datetime_start => ".$event->datetime_start);
-	array_push($newsubarr, "datetime_end => ".$event->datetime_end);
-	array_push($newarr, $newsubarr);
-	$newsubarr = array();
-}
-
-
-function cmp($a, $b) {
-    if ($a['datetime_start'] == $b['datetime_start']) return 0;
-    if ($a['datetime_start'] < $b['datetime_start']) return 1;
-    else return -1;
-}
-
-print_r($newarr);
-echo "<br>";
-
-usort($newarr, "cmp");
-foreach ($newarr as $e)
-{
-    print date("Y.m.d H:i", $e['datetime_start'])." - ".$e['datetime_start']."<br>";
-}
+//$newarr = array();
+//$newsubarr = array();
+//foreach ($cal2->events as $event)
+//{
+//	array_push($newsubarr, "datetime_start => ".$event->datetime_start);
+//	array_push($newsubarr, "datetime_end => ".$event->datetime_end);
+//	array_push($newarr, $newsubarr);
+//	$newsubarr = array();
+//}
+//
+//
+//function cmp($a, $b) {
+//    if ($a['datetime_start'] == $b['datetime_start']) return 0;
+//    if ($a['datetime_start'] < $b['datetime_start']) return 1;
+//    else return -1;
+//}
+//
+//print_r($newarr);
+//echo "<br>";
+//
+//usort($newarr, "cmp");
+//foreach ($newarr as $e)
+//{
+//    print date("Y.m.d H:i", $e['datetime_start'])." - ".$e['datetime_start']."<br>";
+//}
 
 
 

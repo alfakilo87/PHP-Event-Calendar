@@ -1,15 +1,15 @@
 <?php
 
 require_once 'config.php';
-$config = new config();
+$settings = new Config();
 $out = "";
 
 $out .= "
 <style type=\"text/css\">
 div.cal
 {
-	font-family: ".$config->fontfamily.";
-	background-color: rgb(".$config->rgbheadercolor.");
+	font-family: ".$settings->fontfamily.";
+	background-color: rgb(".$settings->rgbheadercolor.");
 }
 
 div.cal table.agenda
@@ -26,17 +26,17 @@ div.cal table.agenda th
 
 div.cal table.agenda th.today
 {
-	background-color: rgb(".$config->rgbtodayheadercolor.");
+	background-color: rgb(".$settings->rgbtodayheadercolor.");
 }
 
 div.cal table.agenda td.day
 {
-	background-color: rgb(".$config->rgbbackgroundcolor.");
+	background-color: rgb(".$settings->rgbbackgroundcolor.");
 }
 
 div.cal table.agenda td.today
 {
-	background-color: rgb(".$config->rgbtodaycolor.");
+	background-color: rgb(".$settings->rgbtodaycolor.");
 }
 
 div.cal table.agenda table.day22
@@ -63,21 +63,21 @@ div.cal table.week th.day
 div.cal table.week th.today
 {
 	min-width: 100px;
-	background-color: rgb(".$config->rgbtodayheadercolor.");
+	background-color: rgb(".$settings->rgbtodayheadercolor.");
 }
 
 div.cal table.week tr.allday td
 {
-	background-color: rgb(".$config->rgbbackgroundcolor.");
+	background-color: rgb(".$settings->rgbbackgroundcolor.");
 	border-bottom-style: solid;
 	border-width: 5px;
-	border-color: rgb(".$config->rgbheadercolor.");
+	border-color: rgb(".$settings->rgbheadercolor.");
 	font-size: 10pt;
 }
 
 div.cal table.week tr.allday td.today
 {
-	background-color: rgb(".$config->rgbtodaycolor.");
+	background-color: rgb(".$settings->rgbtodaycolor.");
 }
 
 div.cal table.week tr.hour th.hour
@@ -93,12 +93,12 @@ div.cal table.week tr.hour td
 
 div.cal table.week tr.hour td.notoday
 {
-	background-color: rgb(".$config->rgbbackgroundcolor.");
+	background-color: rgb(".$settings->rgbbackgroundcolor.");
 }
 
 div.cal table.week tr.hour td.today
 {
-	background-color: rgb(".$config->rgbtodaycolor.");
+	background-color: rgb(".$settings->rgbtodaycolor.");
 }
 
 div.cal table.week tr.hour div.quarter
@@ -109,7 +109,7 @@ div.cal table.week tr.hour div.quarter
 	max-height: 14px;
 	overflow: visible;
 	border-bottom-style: dotted;
-	border-color: rgb(".$config->rgbheadercolor.");
+	border-color: rgb(".$settings->rgbheadercolor.");
 	border-width: 1px;
 }
 
@@ -129,7 +129,7 @@ div.cal table.month
 
 div.cal table.month caption
 {
-	background-color: rgb(".$config->rgbheadercolor.");
+	background-color: rgb(".$settings->rgbheadercolor.");
 	font-weight: bold;
 }
 
@@ -148,15 +148,15 @@ div.cal table.month td
 
 div.cal table.month td.notoday
 {
-	background-color: rgb(".$config->rgbbackgroundcolor.");
+	background-color: rgb(".$settings->rgbbackgroundcolor.");
 }
 
 div.cal table.month td.today
 {
-	background-color: rgb(".$config->rgbtodaycolor.");
+	background-color: rgb(".$settings->rgbtodaycolor.");
 	border-style: solid;
 	border-width: 1px;
-	border-color: rgb(".$config->rgbtodayheadercolor.");
+	border-color: rgb(".$settings->rgbtodayheadercolor.");
 }
 
 div.cal table.month td table.day
@@ -168,7 +168,7 @@ div.cal table.month td table.day
 
 div.cal table.month table.day th
 {
-	background-color: rgb(".$config->rgbdayheadercolor.");
+	background-color: rgb(".$settings->rgbdayheadercolor.");
 	height: 10px;
 	min-height: 10px;
 	max-height: 10px;
@@ -178,7 +178,7 @@ div.cal table.month table.day th
 
 div.cal table.month td.today table.day th
 {
-	background-color: rgb(".$config->rgbtodayheadercolor.");
+	background-color: rgb(".$settings->rgbtodayheadercolor.");
 }
 
 div.cal table.month table.day div.content
@@ -191,10 +191,10 @@ div.cal div.event
 	position: absolute;
 	float: left;
 	overflow: hidden;
-	border-color: rgb(".$config->rgbheadercolor.");
+	border-color: rgb(".$settings->rgbheadercolor.");
 	font-size: 10pt;
-	min-width: ".$config->eventminwidthpx."px;
-	max-width: ".$config->eventmaxwidthpx."px;
+	min-width: ".$settings->eventminwidthpx."px;
+	max-width: ".$settings->eventmaxwidthpx."px;
 	border-style: solid;
 	border-width: 1px;
 	text-align: center;

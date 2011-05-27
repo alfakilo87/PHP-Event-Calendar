@@ -1,6 +1,6 @@
 <?php
 
-class config
+class Config
 {
 	var $jan = 'Jaanuar';
 	var $feb = 'Veebruar';

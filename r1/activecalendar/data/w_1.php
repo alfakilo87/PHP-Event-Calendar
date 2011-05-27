@@ -3,6 +3,7 @@ require_once("../source/activecalendar.php");
 require_once("../source/activecalendarweek.php");
 $cal = new activeCalendarWeek();
 $cal->enableWeekNum("Week");
+$cal->setEventContent("2011","5","26","<img src=\"img/ok.png\" border=\"0\" alt=\"\" /> birthday");
 ?> 
 <?php print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
